@@ -20,3 +20,9 @@ const provider = new firebase.auth.GoogleAuthProvider();
 export { auth, provider };
 
 export default db;
+
+
+
+// deployed Link
+
+//  https://linkedin-clone-app-saddam.web.app
