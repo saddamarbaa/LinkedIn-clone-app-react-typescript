@@ -58,13 +58,9 @@
 
 # Features
 
-- TODO
+-  Complete user authentication users can sign in, sign out
+-  Add post
 
-
-<!-- -  Complete user authentication users can sign in, sign out
--  Add products to their basket
--  Checkout total payment
--  Checkout order page -->
 
 
 
@@ -153,8 +149,7 @@ Start the server
 
 # Status
 
-Project is: _in progress_
-I'm working on it in my free time
+Project is now complete in React js  so my next step I would love to convert to React + TypeScript + Next.js
 
 
 # Inspiration
@@ -176,7 +171,37 @@ To deploy this project on firebase Flow the firebase documentation <a href="http
 
 
 
-# Screenshots(RODO)
+# Screenshots
+
+##  Responsive on large screens - Home Page 
+
+![image](https://user-images.githubusercontent.com/51326421/128429726-68675b07-5507-4e07-a4ae-55f1cf150d67.png)
+
+
+## Responsive on mobile and tablet screens 
+
+![image](https://user-images.githubusercontent.com/51326421/128429807-02fd7bae-bdaa-4d27-9b46-4adcbb2461d5.png)
+
+
+##  Sign in page 
+
+![image](https://user-images.githubusercontent.com/51326421/128430153-935ba3cc-8efb-4724-954c-3498d8d5f6e9.png)
+
+
+
+## LogIn Page
+
+![image](https://user-images.githubusercontent.com/51326421/128430081-26ea7903-c32b-4b24-9162-7929f7c460a1.png)
+
+
+
+## Welcoming Page
+
+![image](https://user-images.githubusercontent.com/51326421/128429995-55619601-d721-4ecf-acd2-1b815c9ed253.png)
+
+
+
+
 
 
 
