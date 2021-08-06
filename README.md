@@ -175,7 +175,8 @@ To deploy this project on firebase Flow the firebase documentation <a href="http
 
 ##  Responsive on large screens - Home Page 
 
-![image](https://user-images.githubusercontent.com/51326421/128429726-68675b07-5507-4e07-a4ae-55f1cf150d67.png)
+![image](https://user-images.githubusercontent.com/51326421/128493228-355cca04-3053-406e-8eaf-497284751634.png)
+
 
 
 ## Responsive on mobile and tablet screens 
