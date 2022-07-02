@@ -43,7 +43,7 @@ const Feed = () => {
 						optionHeadline: doc.data()?.optionHeadline,
 						postContent: doc.data()?.postContent,
 						optionPostImage: doc.data()?.optionPostImage,
-						imgUrl: doc.data()?.imgUrl,
+						imgUrl: doc.data()?.imgUrl || '/images/linkedin-b.png',
 					})),
 				),
 		)
@@ -60,7 +60,7 @@ const Feed = () => {
 				const docRef = await addDoc(collection(db, 'posts'), {
 					timestamp: serverTimestamp(),
 					name: user?.displayName ? user?.displayName : 'code.net',
-					imgUrl: user?.photoURL ? user.photoURL : '/images/index.jpg',
+					imgUrl: user?.photoURL ? user.photoURL : '/images/linkedin-b.png',
 					postContent: postReference,
 					optionPostImage: '',
 					optionHeadline: '',
