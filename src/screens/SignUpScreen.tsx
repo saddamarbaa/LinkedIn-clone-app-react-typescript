@@ -59,7 +59,7 @@ const SignUpScreen = () => {
 				// Update Profile
 				updateProfile(user, {
 					displayName: data?.name,
-					photoURL: data?.imageUrl || '/images/index.jpg',
+					photoURL: data?.imageUrl || '/images/linkedin-b.png',
 				})
 					.then(function () {
 						// Update successful.
