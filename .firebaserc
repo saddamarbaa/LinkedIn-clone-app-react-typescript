@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "linkedin-clone-app-saddam"
+    "default": "linkedin-clone-app-saddam",
+    "linkedin-clone-app": "linkedin-clone-app-by-saddam"
   }
 }
