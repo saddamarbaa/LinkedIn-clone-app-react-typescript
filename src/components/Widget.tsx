@@ -84,8 +84,7 @@ const WidgetWrapper = styled.div`
 	.card.learn,
 	.card.job {
 		font-size: 0.8rem;
-		display: none;
-
+		/* display: none; */
 		p {
 			line-height: 1.7;
 		}

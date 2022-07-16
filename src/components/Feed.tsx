@@ -29,7 +29,6 @@ const Feed = () => {
 	const [post, setPost] = useState<PostResponseType[] | []>([])
 	const [postReference, setPostReference] = useState('')
 	const user = useSelector(selectUser)
-	console.log(post)
 
 	useEffect(() => {
 		const unsubscribe = onSnapshot(
