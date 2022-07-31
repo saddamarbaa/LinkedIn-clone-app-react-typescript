@@ -10,6 +10,7 @@ with complete user authentication (a mobile-friendly).
 - [Demo](#Demo)
 - [Technologies](#Technologies)
 - [Features](#Features)
+- [Related Projects](#Related_Projects)
 - [Optimizations](#Optimizations)
 - [Contributing](#Contributing)
 - [Status](#status)
@@ -44,7 +45,7 @@ with complete user authentication (a mobile-friendly).
 
 # Demo
 
-## <a href="https://linkedin-clone-app-by-saddam.web.app/">LIVE DEMO</a>
+## <a href="https://linkedin-clone-app-navy.vercel.app/">LIVE DEMO</a>
 
 # Features
 
@@ -65,6 +66,80 @@ with complete user authentication (a mobile-friendly).
 # Contributing
 
 Contributions are always welcome!
+
+
+
+# Related_Projects
+
+
+### Instagram Clone App built with React Js + Next Js + TypeScript + Redux + Tailwind CSS + Heroicons
+
+### <a href="https://github.com/saddamarbaa/Instagram-clone-app-nex-js"> Github Repo </a>
+
+### <a href="https://instagram-clone-app-nex-js.vercel.app/">LIVE DEMO</a>
+
+
+###  Facebook Clone App built with React Js + Next Js + TypeScript + Redux + Styled Components
+###  <a href="https://github.com/saddamarbaa/facebook-clone-app-nex-js"> Github Repo </a>
+###  <a href="https://facebook-clone-app-nex-js.vercel.app/">LIVE DEMO</a> 
+
+
+###  Messenger Clone App built with React Js + Next Js + Redux +  Styled Components + Material-UI  
+###  <a href="https://github.com/saddamarbaa/messenger-clone-app-nex-js"> Github Repo </a>
+###  <a href="https://messenger-clone-app-nex-js.vercel.app/">LIVE DEMO</a> 
+
+
+###  Gmail Clone App built with  React Js + Next Js + TypeScript + Styled Components + Material-UI + Firebase Realtime Database + Vercel Hosting 
+
+###  <a href="https://github.com/saddamarbaa/Gmail-clone-app-nex-js"> Github Repo </a>
+###  <a href="https://gmail-clone-app.vercel.app/">LIVE DEMO</a>
+
+
+
+###  Signal Clone App built with React Native + TypeScript + Expo + React Navigation + Firebase Realtime Database + User Authentication + Passwordless Authentication with Magic Link
+
+### <a href="https://github.com/saddamarbaa/signal-clone-app-reactnative-typescript"> Github Repo </a>
+
+
+###  WhatsApp Clone App built with React Js + React Context API  + Styled Components + Material-UI + Firebase Realtime Database + Firebase Hosting
+
+### <a href="https://github.com/saddamarbaa/whatsapp-clone"> Github Repo </a>
+
+### <a href="https://whatsapp-clone-pwj.web.app/">LIVE DEMO</a>
+
+
+###  Slack Clone App built with React Js + Next Js + Styled Components + firebase-hooks + Material-UI
+
+### <a href="https://github.com/saddamarbaa/slack-clone-app-nex-js"> Github Repo </a>
+
+### <a href="https://slack-clone-app-nex-js.vercel.app/">LIVE DEMO</a>
+
+
+### Airbnb Clone App built with React Js + Next Js + Redux + Tailwind CSS
+
+### <a href="https://github.com/saddamarbaa/airbnb-clone-app-nex-js"> Github Repo </a>
+
+### <a href="https://airbnb-clone-app-nex-js.vercel.app/">LIVE DEMO</a>
+
+### Amazon Clone App built with React Js + TypeScript + Redux + Styled Components
+
+### <a href="https://github.com/saddamarbaa/amazon-clone-app-react-typescript"> Github Repo </a>
+
+### <a href="https://amazon-clone-murex-six.vercel.app/">LIVE DEMO</a>
+
+
+###  Tesla Clone App built with  React Js + TypeScript + Redux + Styled Components + Material-UI + Vercel Hosting 
+
+###  <a href="https://github.com/saddamarbaa/tesla-clone-app-react-typescript"> Github Repo </a>
+###  <a href="https://tesla-clone-app-neon.vercel.app/">LIVE DEMO</a>
+
+
+###  Netflix Clone App built with React Js + TypeScript + Redux + Stripe Checkout/Payments + Vercel Hosting + Firebase
+
+###  <a href="https://github.com/saddamarbaa/netflix-clone-app-react-typescript"> Github Repo </a>
+###  <a href="https://netflix-clone-app-react-typescript.vercel.app/">LIVE DEMO</a>
+
+
 
 # Support
 
