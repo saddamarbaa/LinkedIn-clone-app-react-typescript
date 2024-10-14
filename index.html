@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>linkedin</title>
+		<script src="scripts.js" defer></script>
+		<script
+			src="https://kit.fontawesome.com/08e5575f93.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<nav class="navbar">
+			<div class="navbar-left">
+				<a href="index.html">
+					<img src="images/logo.png" class="logo" />
+				</a>
+				<div class="search-box">
+					<img src="images/search.png" />
+					<input type="text" placeholder="Search" />
+				</div>
+			</div>
+			<div class="navbar-center">
+				<ul>
+					<li>
+						<a href="#" class="active-ink">
+							<img src="images/home.png" />
+							<span>Home</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<img src="images/network.png" />
+							<span>My Network</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<img src="images/jobs.png" />
+							<span>Job</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<img src="images/message.png" />
+							<span>Messaging</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/notification.png" />
+							<span>Notifications</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="navbar-right">
+				<div class="online">
+					<img
+						src="images/user-1.png"
+						class="navbar-profile-img"
+						id="nav-user-icon"
+					/>
+				</div>
+			</div>
+
+			<div class="profile-menu-wrap">
+				<div class="profile-menu" id="setting-menu">
+					<div class="user-info">
+						<img src="images/user-1.png" />
+						<div>
+							<h3>Rayan Waltoon</h3>
+						<a href="profile.html"> See Your Profile</a>
+						</div>
+					</div>
+					<hr />
+					<a href="#" class="profile-menu-link">
+						<img src="images/feedback.png" />
+						<p>Give feedback</p>
+						<span>></span>
+					</a>
+
+					<a href="#" class="profile-menu-link">
+						<img src="images/setting.png" />
+						<p>Setting & privacy</p>
+						<span>></span>
+					</a>
+
+					<a href="#" class="profile-menu-link">
+						<img src="images/help.png" />
+						<p>Help & Support</p>
+						<span>></span>
+					</a>
+
+					<a href="#" class="profile-menu-link">
+						<img src="images/display.png" />
+						<p>Display & Accessibility</p>
+						<span>></span>
+					</a>
+
+					<a href="#" class="profile-menu-link">
+						<img src="images/logout.png" />
+						<p>Logout</p>
+						<span>></span>
+					</a>
+				</div>
+			</div>
+		</nav>
+
+		<!-- navbar end -->
+
+		<div class="container">
+			<!-- Left sidebar -->
+			<div class="left-sidebar">
+				<div class="sidebar-profile-box">
+					<img src="images/cover-pic.png" width="100%" />
+
+					<div class="sidebar-profile-info">
+						<img src="images/user-1.png" />
+						<h1>Ryan Hone</h1>
+						<h3>Web Developer at Facebook</h3>
+						<ul>
+							<li>Your Profile views <span>432</span></li>
+							<li>Your post views <span>32</span></li>
+							<li>Your connections <span>876</span></li>
+						</ul>
+					</div>
+					<div class="sidebar-profile-link">
+						<a href="#">
+							<img src="images/items.png" />
+							My Items
+						</a>
+						<a href="#">
+							<img src="images/premium.png" />
+							Try Premium
+						</a>
+					</div>
+				</div>
+
+				<div class="sidebar-profile-activity">
+					<h3>RECENT</h3>
+					<a href="#"> <img src="images/recent.png" /> Web Development</a>
+					<a href="#"> <img src="images/recent.png" /> User Interface</a>
+					<a href="#"> <img src="images/recent.png" /> Online Learning</a>
+					<a href="#"> <img src="images/recent.png" /> Code Better</a>
+					<a href="#"> <img src="images/group.png" /> Group Learning</a>
+					<h3>GROUPS</h3>
+					<a href="#"> <img src="images/group.png" /> Web Development Group</a>
+					<a href="#"> <img src="images/group.png" /> UI/UX Designers Hub</a>
+					<a href="#"> <img src="images/group.png" /> JavaScript Enthusiasts</a>
+					<a href="#">
+						<img src="images/group.png" /> Backend Developers Community</a
+					>
+					<a href="#"> <img src="images/group.png" /> Mobile App Developers</a>
+					<a href="#">
+						<img src="images/group.png" /> Freelance Designers Network</a
+					>
+
+					<h3>Hashtags</h3>
+					<a href="#"> <img src="images/hashtag.png" /> #WebDevelopment</a>
+					<a href="#"> <img src="images/hashtag.png" /> #UIDesign</a>
+					<a href="#"> <img src="images/hashtag.png" /> #JavaScript</a>
+					<a href="#"> <img src="images/hashtag.png" /> #BackendDevelopment</a>
+					<a href="#"> <img src="images/hashtag.png" /> #MobileApps</a>
+					<a href="#"> <img src="images/hashtag.png" /> #Freelancing</a>
+					<div class="discover-more-link">
+						<a href="#">Discover More</a>
+					</div>
+				</div>
+			</div>
+			<!-- Main page content -->
+			<div class="main-content">
+				<div class="create-post">
+					<div class="post-input">
+						<img src="images/user-2.png" />
+						<textarea rows="2" placeholder="Write post"></textarea>
+					</div>
+					<div class="create-post-links">
+						<li><img src="images/photo.png" />Photo</li>
+						<li><img src="images/video.png" />Video</li>
+						<li><img src="images/event.png" />Event</li>
+						<li>Post</li>
+					</div>
+				</div>
+				<div class="sort-by">
+					<hr />
+					<p>
+						sort by: <span>top <img src="images/down-arrow.png" /></span>
+					</p>
+				</div>
+
+				<div class="post">
+					<div class="post-author">
+						<img src="images/user-4.png" />
+						<div>
+							<h1>Ales Mater</h1>
+							<small
+								>Founder of online coder | Nodejs Expert | Lovely friend</small
+							>
+							<small>2 hurs agao</small>
+						</div>
+					</div>
+					<p>Node js is heigh demand in the market nowdays</p>
+					<img src="images/post-image-1.png" width="100%" />
+					<div class="post-stats">
+						<div>
+							<img src="images/thumbsup.png" />
+							<img src="images/comment.png" />
+							<img src="images/clap.png" />
+							<span class="like-user">Ali Adan and 854 others</span>
+						</div>
+
+						<div>
+							<span>65 comments &middot; 40 shares</span>
+						</div>
+					</div>
+					<div class="post-activity">
+						<div>
+							<img src="images/user-1.png" class="post-activity-user-icon" />
+							<img
+								src="images/down-arrow.png"
+								class="post-activity-arrow-icon"
+							/>
+						</div>
+						<div class="post-activity-link">
+							<img src="images/like.png" />
+							<span>like</span>
+						</div>
+
+						<div class="post-activity-link">
+							<img src="images/comment.png" />
+							<span>Comment</span>
+						</div>
+
+						<div class="post-activity-link">
+							<img src="images/search.png" />
+							<span>share</span>
+						</div>
+
+						<div class="post-activity-link">
+							<img src="images/send.png" />
+							<span>Send</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="post">
+					<div class="post-author">
+						<img src="images/user-1.png" />
+						<div>
+							<h1>Jane Doe</h1>
+							<small
+								>Software Engineer | React Enthusiast | Lifelong Learner</small
+							>
+							<small>1 hour ago</small>
+						</div>
+					</div>
+					<p>
+						Just completed a major feature using React Hooks. Game changer! 🚀
+					</p>
+					<img src="images/post-image-2.png" width="100%" />
+					<div class="post-stats">
+						<div>
+							<img src="images/thumbsup.png" />
+							<img src="images/comment.png" />
+							<img src="images/clap.png" />
+							<span class="like-user">John Smith and 1,230 others</span>
+						</div>
+						<div>
+							<span>80 comments &middot; 50 shares</span>
+						</div>
+					</div>
+					<div class="post-activity">
+						<div>
+							<img src="images/user-2.png" class="post-activity-user-icon" />
+							<img
+								src="images/down-arrow.png"
+								class="post-activity-arrow-icon"
+							/>
+						</div>
+						<div class="post-activity-link">
+							<img src="images/like.png" />
+							<span>Like</span>
+						</div>
+						<div class="post-activity-link">
+							<img src="images/comment.png" />
+							<span>Comment</span>
+						</div>
+						<div class="post-activity-link">
+							<img src="images/search.png" />
+							<span>Share</span>
+						</div>
+						<div class="post-activity-link">
+							<img src="images/send.png" />
+							<span>Send</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="post">
+					<div class="post-author">
+						<img src="images/user-2.png" />
+						<div>
+							<h1>Mark Ronson</h1>
+							<small>Data Scientist | AI Enthusiast | Speaker</small>
+							<small>3 hours ago</small>
+						</div>
+					</div>
+					<p>
+						Excited to share my latest AI model results! Accuracy up by 15%!
+						💻🤖
+					</p>
+					<img src="images/post-image-3.png" width="100%" />
+					<div class="post-stats">
+						<div>
+							<img src="images/thumbsup.png" />
+							<img src="images/comment.png" />
+							<img src="images/clap.png" />
+							<span class="like-user">Sarah Connor and 2,150 others</span>
+						</div>
+						<div>
+							<span>112 comments &middot; 67 shares</span>
+						</div>
+					</div>
+					<div class="post-activity">
+						<div>
+							<img src="images/user-3.png" class="post-activity-user-icon" />
+							<img
+								src="images/down-arrow.png"
+								class="post-activity-arrow-icon"
+							/>
+						</div>
+						<div class="post-activity-link">
+							<img src="images/like.png" />
+							<span>Like</span>
+						</div>
+						<div class="post-activity-link">
+							<img src="images/comment.png" />
+							<span>Comment</span>
+						</div>
+						<div class="post-activity-link">
+							<img src="images/search.png" />
+							<span>Share</span>
+						</div>
+						<div class="post-activity-link">
+							<img src="images/send.png" />
+							<span>Send</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="post">
+					<div class="post-author">
+						<img src="images/user-3.png" />
+						<div>
+							<h1>Emily Clarke</h1>
+							<small>Full Stack Developer | Open Source Contributor</small>
+							<small>5 hours ago</small>
+						</div>
+					</div>
+					<p>
+						Building a side project with Node.js and Express. Loving the
+						progress so far!
+					</p>
+					<img src="images/post-image-4.png" width="100%" />
+					<div class="post-stats">
+						<div>
+							<img src="images/thumbsup.png" />
+							<img src="images/comment.png" />
+							<img src="images/clap.png" />
+							<span class="like-user">Alex Johnson and 920 others</span>
+						</div>
+						<div>
+							<span>42 comments &middot; 30 shares</span>
+						</div>
+					</div>
+					<div class="post-activity">
+						<div>
+							<img src="images/user-4.png" class="post-activity-user-icon" />
+							<img
+								src="images/down-arrow.png"
+								class="post-activity-arrow-icon"
+							/>
+						</div>
+						<div class="post-activity-link">
+							<img src="images/like.png" />
+							<span>Like</span>
+						</div>
+						<div class="post-activity-link">
+							<img src="images/comment.png" />
+							<span>Comment</span>
+						</div>
+						<div class="post-activity-link">
+							<img src="images/search.png" />
+							<span>Share</span>
+						</div>
+						<div class="post-activity-link">
+							<img src="images/send.png" />
+							<span>Send</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="post">
+					<div class="post-author">
+						<img src="images/user-4.png" />
+						<div>
+							<h1>John Smith</h1>
+							<small>Tech Entrepreneur | Mentor | Speaker</small>
+							<small>7 hours ago</small>
+						</div>
+					</div>
+					<p>
+						Just wrapped up a fantastic webinar on entrepreneurship in the tech
+						space!
+					</p>
+					<img src="images/post-image-3.png" width="100%" />
+					<div class="post-stats">
+						<div>
+							<img src="images/thumbsup.png" />
+							<img src="images/comment.png" />
+							<img src="images/clap.png" />
+							<span class="like-user">Michael Scott and 1,145 others</span>
+						</div>
+						<div>
+							<span>73 comments &middot; 55 shares</span>
+						</div>
+					</div>
+					<div class="post-activity">
+						<div>
+							<img src="images/user-5.png" class="post-activity-user-icon" />
+							<img
+								src="images/down-arrow.png"
+								class="post-activity-arrow-icon"
+							/>
+						</div>
+						<div class="post-activity-link">
+							<img src="images/like.png" />
+							<span>Like</span>
+						</div>
+						<div class="post-activity-link">
+							<img src="images/comment.png" />
+							<span>Comment</span>
+						</div>
+						<div class="post-activity-link">
+							<img src="images/search.png" />
+							<span>Share</span>
+						</div>
+						<div class="post-activity-link">
+							<img src="images/send.png" />
+							<span>Send</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="post">
+					<div class="post-author">
+						<img src="images/user-2.png" />
+						<div>
+							<h1>Rachel Green</h1>
+							<small>UI/UX Designer | Product Design Enthusiast</small>
+							<small>10 hours ago</small>
+						</div>
+					</div>
+					<p>
+						Excited to share my latest portfolio update! Check it out for some
+						new design trends.
+					</p>
+					<img src="images/post-image-2.png" width="100%" />
+					<div class="post-stats">
+						<div>
+							<img src="images/thumbsup.png" />
+							<img src="images/comment.png" />
+							<img src="images/clap.png" />
+							<span class="like-user">Monica Geller and 850 others</span>
+						</div>
+						<div>
+							<span>60 comments &middot; 40 shares</span>
+						</div>
+					</div>
+					<div class="post-activity">
+						<div>
+							<img src="images/user-2.png" class="post-activity-user-icon" />
+							<img
+								src="images/down-arrow.png"
+								class="post-activity-arrow-icon"
+							/>
+						</div>
+						<div class="post-activity-link">
+							<img src="images/like.png" />
+							<span>Like</span>
+						</div>
+						<div class="post-activity-link">
+							<img src="images/comment.png" />
+							<span>Comment</span>
+						</div>
+						<div class="post-activity-link">
+							<img src="images/search.png" />
+							<span>Share</span>
+						</div>
+						<div class="post-activity-link">
+							<img src="images/send.png" />
+							<span>Send</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Right sidebar -->
+			<div class="right-sidebar">
+				<div class="sidebar-news">
+					<img src="images/more.png" class="info-icon" />
+					<h3>Trending News</h3>
+					<a href="#">High demand for skilled manpower</a>
+					<span>1d ago &lmidot; 10,3843 readers</span>
+					<a href="#">New trends in web development</a>
+					<span>2d ago &lmidot; 12,564 readers</span>
+
+					<a href="#">AI transforming industries worldwide</a>
+					<span>5h ago &lmidot; 15,432 readers</span>
+
+					<a href="#">Top skills employers are seeking in 2024</a>
+					<span>3d ago &lmidot; 8,924 readers</span>
+
+					<a href="#">Remote work and its impact on productivity</a>
+					<span>6h ago &lmidot; 9,872 readers</span>
+
+					<a href="#">Blockchain technology in financial services</a>
+					<span>1d ago &lmidot; 7,342 readers</span>
+
+					<a href="#">Cloud computing trends to watch</a>
+					<span>12h ago &lmidot; 6,543 readers</span>
+
+					<a href="#">How to become a data scientist in 2024</a>
+					<span>3d ago &lmidot; 11,293 readers</span>
+
+					<a href="#" class="red-more-link">Read More</a>
+				</div>
+
+				<div class="sidebar-ads">
+					<small>Ads &middot; &middot; &middot;</small>
+					<p>Master the 5 principles of web design</p>
+					<div>
+						<img src="images/user-1.png" />
+						<img src="images/mi-logo.png" />
+					</div>
+					<b>Brand and Demand in Xiaomi</b>
+					<a href="#" class="add-link">Learn More</a>
+				</div>
+				<div class="sidebar-useful-link">
+					<a href="#"> About </a>
+					<a href="#"> Accessibility </a>
+					<a href="#"> Help Center </a>
+					<a href="#"> Advertising </a>
+					<a href="#"> Get the app </a>
+					<a href="#"> More </a>
+				</div>
+				<div class="copyright">
+					<img src="images/logo.png" />
+					<p>Linkedup &#169; 2024. All right reseved</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

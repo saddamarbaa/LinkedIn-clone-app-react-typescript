@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Profile</title>
+		<script src="scripts.js" defer></script>
+		<script
+			src="https://kit.fontawesome.com/08e5575f93.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<nav class="navbar">
+			<div class="navbar-left">
+				<a href="index.html">
+					<img src="images/logo.png" class="logo" />
+				</a>
+				<div class="search-box">
+					<img src="images/search.png" />
+					<input type="text" placeholder="Search" />
+				</div>
+			</div>
+			<div class="navbar-center">
+				<ul>
+					<li>
+						<a href="#" class="active-ink">
+							<img src="images/home.png" />
+							<span>Home</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<img src="images/network.png" />
+							<span>My Network</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<img src="images/jobs.png" />
+							<span>Job</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<img src="images/message.png" />
+							<span>Messaging</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="images/notification.png" />
+							<span>Notifications</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="navbar-right">
+				<div class="online">
+					<img
+						src="images/user-1.png"
+						class="navbar-profile-img"
+						id="nav-user-icon"
+					/>
+				</div>
+			</div>
+
+			<div class="profile-menu-wrap">
+				<div class="profile-menu" id="setting-menu">
+					<div class="user-info">
+						<img src="images/user-1.png" />
+						<div>
+							<h3>Rayan Waltoon</h3>
+							<a href="profile.html"> See Your Profile</a>
+						</div>
+					</div>
+					<hr />
+					<a href="#" class="profile-menu-link">
+						<img src="images/feedback.png" />
+						<p>Give feedback</p>
+						<span>></span>
+					</a>
+
+					<a href="#" class="profile-menu-link">
+						<img src="images/setting.png" />
+						<p>Setting & privacy</p>
+						<span>></span>
+					</a>
+
+					<a href="#" class="profile-menu-link">
+						<img src="images/help.png" />
+						<p>Help & Support</p>
+						<span>></span>
+					</a>
+
+					<a href="#" class="profile-menu-link">
+						<img src="images/display.png" />
+						<p>Display & Accessibility</p>
+						<span>></span>
+					</a>
+
+					<a href="#" class="profile-menu-link">
+						<img src="images/logout.png" />
+						<p>Logout</p>
+						<span>></span>
+					</a>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container">
+			<div class="profile-main">
+				<div class="profile-container">
+					<img src="images/cover-pic.png" width="100%" />
+					<div class="profile-container-inner">
+						<img src="images/user-1.png" class="profile-pic" />
+						<h1>Ryan Waltoon</h1>
+						<b>Web Developer at Facebook | Former UI UX at Twitter</b>
+						<p>Indonesia Battam City &middot; <a href="#"> Contact Info</a></p>
+						<div class="mutual-connection">
+							<img src="images/user-2.png" />
+							<span>1 Mutual connection: Orland Adam</span>
+						</div>
+						<div class="profile-btn">
+							<a href="#"><img src="images/connect.png" /> connect</a>
+
+							<a href="#"><img src="images/chat.png" /> Message</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="profile-description">
+					<h2>About</h2>
+					<p>
+						I am a passionate software developer with a focus on creating
+						efficient and scalable applications. With hands-on experience in
+						Java, JavaScript, and web development technologies, I love solving
+						complex problems and continuously improving my skills.
+					</p>
+					<a href="#" class="see-more"> See More...</a>
+				</div>
+
+				<div class="profile-description">
+					<h2>Experience</h2>
+
+					<!-- First Job Experience -->
+					<div class="profile-des-row">
+						<img src="images/microsoft.png" alt="Microsoft Logo" />
+						<div>
+							<h3>Lead Front-end Developer</h3>
+							<b>Microsoft - Full Time</b><br />
+							<b>Feb 2020 - Present (1.5 years)</b>
+							<p>
+								As a Lead Front-end Developer, I led the development of scalable
+								and responsive web applications. Collaborated closely with
+								cross-functional teams, including designers, backend developers,
+								and project managers, to deliver user-friendly and
+								high-performing interfaces. Leveraged modern JavaScript
+								frameworks like React and ensured code quality through automated
+								testing and code reviews.
+							</p>
+							<hr />
+						</div>
+					</div>
+
+					<!-- Second Job Experience -->
+					<div class="profile-des-row">
+						<img src="images/google.png" alt="Google Logo" />
+						<div>
+							<h3>Senior Front-end Developer</h3>
+							<b>Google - Full Time</b><br />
+							<b>June 2017 - Jan 2020 (2.5 years)</b>
+							<p>
+								At Google, I developed and maintained various components of
+								Google’s large-scale web applications. Worked with a talented
+								team of developers to build robust and highly optimized
+								front-end solutions, utilizing Angular and TypeScript.
+								Contributed to project planning, UI/UX discussions, and
+								implemented solutions that improved user engagement by 30%.
+							</p>
+							<hr />
+						</div>
+					</div>
+
+					<!-- Third Job Experience -->
+					<div class="profile-des-row">
+						<img
+							src="https://tse1.mm.bing.net/th?id=OIP.QMnOzU2lTFPCD6y2ogUtGQHaEK&pid=Api&P=0&h=220"
+							alt="Facebook Logo"
+						/>
+						<div>
+							<h3>Front-end Developer</h3>
+							<b>Facebook - Full Time</b><br />
+							<b>Mar 2015 - May 2017 (2.2 years)</b>
+							<p>
+								At Facebook, I contributed to building dynamic and interactive
+								user interfaces using HTML, CSS, and JavaScript. Collaborated
+								with design and product teams to implement new features and
+								improve the overall performance of web applications. Worked with
+								React.js and Flux architecture to develop large-scale
+								applications with reusable components.
+							</p>
+							<hr />
+						</div>
+					</div>
+				</div>
+
+				<div class="profile-description">
+					<h2>Skills</h2>
+					<ul class="skills-list">
+						<li>
+							<b>JavaScript</b> – Expert in modern JavaScript (ES6+), DOM
+							manipulation, and event handling.
+						</li>
+						<li>
+							<b>React.js</b> – Proficient in building scalable, component-based
+							UIs using React, Hooks, and Context API.
+						</li>
+						<li>
+							<b>HTML5 & CSS3</b> – Strong skills in creating responsive
+							layouts, implementing Flexbox, and CSS Grid.
+						</li>
+						<li>
+							<b>Node.js</b> – Experience building server-side applications and
+							RESTful APIs with Express.js.
+						</li>
+						<li>
+							<b>Version Control (Git)</b> – Expertise in source code
+							management, branching, and collaborating using Git/GitHub.
+						</li>
+						<li>
+							<b>UI/UX Design</b> – Knowledgeable in translating wireframes into
+							functional interfaces using Figma and Sketch.
+						</li>
+						<li>
+							<b>Testing & Debugging</b> – Familiar with automated testing
+							frameworks like Jest, Cypress, and proficient in browser-based
+							debugging.
+						</li>
+						<li>
+							<b>Agile Methodologies</b> – Experienced in Agile, Scrum, and
+							working within cross-functional teams.
+						</li>
+					</ul>
+				</div>
+
+				<div class="profile-description">
+					<h2>Languages</h2>
+					<ul class="languages-list">
+						<li><b>English</b> – Fluent</li>
+						<li><b>Arabic</b> – Fluent</li>
+						<li><b>French</b> – Intermediate</li>
+						<li><b>Spanish</b> – Basic</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="profile-sidebar right-sidebar">
+				<div class="sidebar-ads">
+					<small>Ads &middot; &middot; &middot;</small>
+					<p>Master the 5 principles of web design</p>
+					<div>
+						<img src="images/user-1.png" />
+						<img src="images/mi-logo.png" />
+					</div>
+					<b>Brand and Demand in Xiaomi</b>
+					<a href="#" class="add-link">Learn More</a>
+				</div>
+
+				<div class="sidebar-people">
+					<h3>People you may know</h3>
+
+					<!-- First Person -->
+
+					<!-- Second Person -->
+					<div class="sidebar-user-row">
+						<img src="images/user-2.png" alt="User Image 2" />
+						<div>
+							<h2>Linda Green</h2>
+							<p>Software Engineer at Google</p>
+							<a href="#">Connect</a>
+						</div>
+					</div>
+
+					<!-- Third Person -->
+					<div class="sidebar-user-row">
+						<img src="images/user-3.png" alt="User Image 3" />
+						<div>
+							<h2>David Thompson</h2>
+							<p>UI/UX Designer at Apple</p>
+							<a href="#">Connect</a>
+						</div>
+					</div>
+
+					<!-- Fourth Person -->
+					<div class="sidebar-user-row">
+						<img src="images/user-4.png" alt="User Image 4" />
+						<div>
+							<h2>Alice Wong</h2>
+							<p>Data Scientist at Amazon</p>
+							<a href="#">Connect</a>
+						</div>
+					</div>
+
+					<!-- Fifth Person -->
+					<div class="sidebar-user-row">
+						<img src="images/user-5.png" alt="User Image 5" />
+						<div>
+							<h2>John Doe</h2>
+							<p>Project Manager at Microsoft</p>
+							<a href="#">Connect</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="sidebar-useful-link">
+					<a href="#"> About </a>
+					<a href="#"> Accessibility </a>
+					<a href="#"> Help Center </a>
+					<a href="#"> Advertising </a>
+					<a href="#"> Get the app </a>
+					<a href="#"> More </a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
