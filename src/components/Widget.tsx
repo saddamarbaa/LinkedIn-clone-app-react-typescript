@@ -1,140 +1,92 @@
-import { Card } from '@material-ui/core'
 import React from 'react'
-import styled from 'styled-components'
+import Card from './UI/Card'
 
 const Widget = () => {
 	return (
-		<WidgetWrapper>
-			<div id="fixed-position">
-				<div className="job-img">
-					<img src="images/job.jpg" alt="jobs image"></img>
-				</div>
+		<div className="flex-[0.3] min-w-[20rem] w-[20rem] max-w-[20rem] flex-col items-center pb-12 hidden lg:flex">
+			<div id="fixed-position" className="fixed max-w-[30rem] min-w-[20rem] ">
+				<>
+					<div className="w-[20rem] flex flex-col space-y-4 overflow-hidden">
+						<figure>
+							<img
+								className="w-full h-full object-contain  rounded cursor-pointer "
+								src="images/job.jpg"
+								alt="jobs image"
+							/>
+						</figure>
 
-				<Card style={{ marginTop: '20px' }}>
-					<div className="job-img">
-						<img
-							src="https://id.safenet.or.id/wp-content/uploads/2020/03/covid19.jpg"
-							alt="covid 19 image"></img>
+						<figure className="hidden">
+							<img
+								className="object-cover object-center w-full h-full max-w-full rounded-lg cursor-pointer "
+								src="https://id.safenet.or.id/wp-content/uploads/2020/03/covid19.jpg"
+								alt="covid 19 image"
+							/>
+						</figure>
+
+						<figure>
+							<img
+								className="object-cover object-center w-full h-full max-w-full rounded-lg cursor-pointer"
+								src="https://inspirationfeed.com/wp-content/uploads/2015/08/LinkedIn.jpg"
+								alt="covid 19 image"
+							/>
+						</figure>
+
+						<Card>
+							<h3 className="mb-4 text-lg font-semibold">
+								Grow your skills and advance your career with LinkedIn Learning
+							</h3>
+							<h4 className="mb-4 text-md font-medium">Today’s top courses</h4>
+							<div className="mb-4">
+								<p className="leading-relaxed text-sm">
+									1. Problem Solving & Troubleshooting
+								</p>
+								<span className="text-blue-600 text-sm dark:text-white">
+									Jeff Ansell
+								</span>
+							</div>
+							<div className="mb-4">
+								<p className="leading-relaxed text-sm">2. Agile Foundations</p>
+								<span className="text-blue-600 text-sm dark:text-white">
+									Doug Rose
+								</span>
+							</div>
+							<div className="mb-4">
+								<p className="leading-relaxed text-sm">
+									3. Communicating with Confidence
+								</p>
+								<span className="text-blue-600 text-sm dark:text-white">
+									Tatiana Kolovou
+								</span>
+							</div>
+						</Card>
+
+						<div className="help-options p-4 text-sm">
+							<p className="mb-4">
+								<span className="mr-3 cursor-pointer hover:text-blue-600 hover:underline">
+									About
+								</span>
+								<span className="mr-3 cursor-pointer hover:text-blue-600 hover:underline">
+									Help Center
+								</span>
+								<span className="mr-3 cursor-pointer hover:text-blue-600 hover:underline">
+									Accessibility
+								</span>
+							</p>
+							<p className="mb-4">
+								<span className="mr-3 cursor-pointer hover:text-blue-600 hover:underline">
+									Ad Choices
+								</span>
+								<span className="mr-3 cursor-pointer hover:text-blue-600 hover:underline">
+									Advertising
+								</span>
+							</p>
+							<p className="text-sm">LinkedIn Corporation &copy; 2021</p>
+						</div>
 					</div>
-				</Card>
-
-				<Card style={{ marginTop: '20px' }}>
-					<div className="job-img">
-						<img
-							src="https://inspirationfeed.com/wp-content/uploads/2015/08/LinkedIn.jpg"
-							alt="covid 19 image"></img>
-					</div>
-				</Card>
-
-				<Card className="card learn">
-					<h3>
-						grow your skills and advance your career with LinkedIn Learning
-					</h3>
-					<h4>Today’s top courses</h4>
-					<div>
-						<p>1. Problem Solving & Troubleshooting</p>
-						<span>Jeff Ansell</span>
-					</div>
-					<div>
-						<p> 2. Agile Foundations</p>
-						<span> Doug Rose</span>
-					</div>
-
-					<div>
-						<p>3. Communicating with Confidence</p>
-						<span>Tatiana Kolovou</span>
-					</div>
-				</Card>
-
-				<div className="help-options">
-					<p>
-						<span>About</span>
-						<span>Help Center</span>
-						<span>Accessibility</span>
-					</p>
-					<p>
-						<span>Ad Choices</span>
-						<span> Advertising</span>
-					</p>
-
-					<p>LinkedIn Corporation &copy; 2021</p>
-				</div>
+				</>
 			</div>
-		</WidgetWrapper>
+		</div>
 	)
 }
 
 export default React.memo(Widget)
-
-const WidgetWrapper = styled.div`
-	font-size: 0.9rem;
-	@media (max-width: 992px) {
-		display: none;
-	}
-
-	.card {
-		padding: 1rem;
-		margin-bottom: 0.8rem;
-		@media (max-width: 578px) {
-			margin: 0;
-			margin-top: 0.8rem;
-		}
-	}
-
-	.card.learn,
-	.card.job {
-		font-size: 0.8rem;
-		/* display: none; */
-		p {
-			line-height: 1.7;
-		}
-
-		span {
-			color: #0a66c2;
-		}
-		div,
-		h3,
-		h4 {
-			margin-bottom: 0.8rem;
-		}
-	}
-
-	min-width: 250px;
-	width: 250px;
-
-	#fixed-position {
-		position: fixed;
-		min-width: 250px;
-		width: 250px;
-
-		&:hover {
-			overflow-y: auto !important;
-		}
-	}
-
-	.help-options {
-		padding: 1rem;
-
-		font-size: 0.8rem;
-
-		span {
-			margin-right: 0.7rem;
-			cursor: pointer;
-			transition: 0.3s;
-			&:hover {
-				color: #0a66c2;
-				text-decoration: underline;
-			}
-		}
-
-		p {
-			margin: 1rem 0;
-		}
-	}
-
-	.job-img img {
-		width: 100%;
-		height: 100%;
-		object-fit: contain;
-	}
-`

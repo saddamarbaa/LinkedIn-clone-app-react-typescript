@@ -1,19 +1,11 @@
-import React from 'react'
-import styled from 'styled-components'
-
-type CardDType = {
-	children: React.ReactNode
+import { ReactNode } from 'react'
+type Props = {
+	children: ReactNode
 }
-const Card = ({ children }: CardDType) => {
-	return <CardD>{children}</CardD>
+export default function Card({ children }: Props) {
+	return (
+		<div className="overflow-hidden rounded bg-white shadow p-3 border-0 dark:bg-customBlack-700 dark:border-0">
+			{children}
+		</div>
+	)
 }
-
-export default Card
-
-const CardD = styled.div`
-	padding: 1rem;
-	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-	border-radius: 14px;
-	background-color: white;
-	width: 100%;
-`

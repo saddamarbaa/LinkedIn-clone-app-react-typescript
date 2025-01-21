@@ -1,31 +1,21 @@
-import React from 'react'
-import styled from 'styled-components'
-
-type InputOptionType = {
-	Icon: any
+type HeaderOptionProps = {
+	Icon: React.ElementType
+	color?: string
 	title: string
-	color: string
 }
-const InputOption = ({ Icon, title, color }: InputOptionType) => {
+
+const InputOption = ({ Icon, title, color }: HeaderOptionProps) => {
 	return (
-		<InputOptionWrapper>
-			<Icon style={{ color: color }} /> <span>{title}</span>
-		</InputOptionWrapper>
+		<div className="flex items-center space-x-3 hover:bg-customWhite-200 p-3 w-fit mt-1 transition hover:rounded cursor-pointer dark:hover:bg-customBlack-600 duration-200">
+			{Icon && (
+				<Icon
+					className="text-gray-600 h-6 w-6 dark:text-white"
+					style={{ color: color }}
+				/>
+			)}
+			<p className="md:text-lg">{title}</p>
+		</div>
 	)
 }
 
-export default React.memo(InputOption)
-
-const InputOptionWrapper = styled.div`
-	display: flex;
-	align-items: center;
-	cursor: pointer;
-	padding: 1rem 0.7rem;
-	transition: 0.3s;
-	&:hover {
-		background: #cfcecc;
-	}
-	span {
-		margin-left: 0.8rem;
-	}
-`
+export default InputOption

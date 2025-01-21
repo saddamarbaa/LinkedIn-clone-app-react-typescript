@@ -12,7 +12,7 @@ export const signupSchemaValidation = Yup.object().shape({
 		.max(40, 'Password must not exceed 40 characters'),
 	confirmPassword: Yup.string()
 		.required('Confirm Password is required')
-		.oneOf([Yup.ref('password'), null], 'Confirm Password does not match'),
+		.oneOf([Yup.ref('password')], 'Confirm Password does not match'),
 	imageUrl: Yup.string().url('Image Url must be a valid URL'),
 })
 
