@@ -2,7 +2,7 @@ import { useAuthState } from 'react-firebase-hooks/auth'
 import { Navigate, Outlet } from 'react-router'
 
 import { auth } from '../config'
-import Loading from './Spinner'
+import Loading from './UI/Spinner'
 
 export default function PrivateRoute() {
 	const [user, loading, error] = useAuthState(auth)

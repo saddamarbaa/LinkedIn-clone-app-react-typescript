@@ -1,5 +1,5 @@
 import Button from '../components/UI/Button'
-import DarkModeSwitch from '../components/DarkModeSwitch'
+import DarkModeSwitch from '../components/UI/DarkModeSwitch'
 
 import { FaArrowRight, FaArrowDown, FaPhoneAlt } from 'react-icons/fa'
 import { Link } from 'react-router'

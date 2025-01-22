@@ -1,5 +1,5 @@
 import { Link } from 'react-router'
-import DarkModeSwitch from './DarkModeSwitch'
+import DarkModeSwitch from '../UI/DarkModeSwitch'
 import { BiSearch } from 'react-icons/bi'
 import HeaderOption from './HeaderOption'
 import { FaShoppingBag } from 'react-icons/fa'
@@ -12,7 +12,7 @@ import {
 	FaUsers,
 } from 'react-icons/fa'
 import { useAuthState } from 'react-firebase-hooks/auth'
-import { auth } from '../config'
+import { auth } from '../../config'
 
 export default function Header() {
 	const [user] = useAuthState(auth)
@@ -90,10 +90,14 @@ export default function Header() {
 						<HeaderOption Icon={FaUsers} title="My Network" />
 					</div>
 					<div className="hidden lg:block">
-						<HeaderOption Icon={FaSuitcase} title="Jobs" />
+						<HeaderOption Icon={FaSuitcase} title="Jobs" showNotification />
 					</div>
 					<HeaderOption Icon={FaComments} title="Messaging" />
-					<HeaderOption Icon={FaBell} title="Notifications" />
+					<HeaderOption
+						Icon={FaBell}
+						title="Notifications"
+						showNotification={true}
+					/>
 
 					<div className="hidden lg:block">
 						<HeaderOption Icon={FaUsers} title="My Network" />

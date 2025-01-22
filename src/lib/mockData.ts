@@ -1,4 +1,6 @@
-export const mockChats = [
+import { ChatT } from '../types/Chat'
+
+export const mockChats: ChatT[] = [
 	{
 		name: 'Elon Musk',
 		photoUrl:
