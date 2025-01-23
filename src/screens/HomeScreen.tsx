@@ -1,5 +1,5 @@
 import Chat from '../components/Chat/Chat'
-import Feed from '../components/Feed/Feed'
+import Feed from '../components/Feeds/Feed'
 import Header from '../components/Header/Header'
 import Sidebar from '../components/Sidebar/Sidebar'
 import Widget from '../components/Widget/Widget'

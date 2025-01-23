@@ -1,6 +1,6 @@
 import { HiDotsHorizontal } from 'react-icons/hi'
 import { PiNotePencil } from 'react-icons/pi'
-import { IoIosArrowDown } from 'react-icons/io'
+import { IoIosArrowUp } from 'react-icons/io'
 import Avatar from '../UI/Avatar'
 
 interface ChatHeaderProps {
@@ -21,7 +21,7 @@ export default function ChatHeader({ photoURL, setShowChat }: ChatHeaderProps) {
 			<div className="flex items-center space-x-3">
 				<HiDotsHorizontal className="text-xl cursor-pointer" />
 				<PiNotePencil className="text-xl cursor-pointer" />
-				<IoIosArrowDown className="text-xl cursor-pointer" />
+				<IoIosArrowUp className="text-xl cursor-pointer" />
 			</div>
 		</div>
 	)

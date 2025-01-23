@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router'
 import {
 	auth,
-	GoogleAuthProvider,
+	// GoogleAuthProvider,
 	googleProvider,
 	signInWithPopup,
 } from '../../config'
@@ -17,8 +17,8 @@ export default function OAuth() {
 			const result = await signInWithPopup(auth, googleProvider)
 
 			// This gives you a Google Access Token. You can use it to access the Google API.
-			const credential = GoogleAuthProvider.credentialFromResult(result)
-			const token = credential?.accessToken
+			// const credential = GoogleAuthProvider.credentialFromResult(result)
+			// const token = credential?.accessToken
 			const user = result?.user
 			console.log(result, user)
 
@@ -26,7 +26,7 @@ export default function OAuth() {
 			navigate('/')
 		} catch (error: unknown) {
 			const firebaseError = error as FirebaseError
-			const errorCode = firebaseError?.code
+			// const errorCode = firebaseError?.code
 			const errorMessage = firebaseError?.message
 			toast.error(errorMessage || 'Something went wrong with the registration')
 		}

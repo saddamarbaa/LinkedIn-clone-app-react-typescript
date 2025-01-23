@@ -11,7 +11,7 @@ export default function Chat() {
 	const [showChat, setShowChat] = useState(false)
 
 	return (
-		<div className=" fixed bottom-2 right-1 bg-white w-full   max-w-xs overflow-hidden  border dark:bg-customBlack-700 dark:border-0  shadow-2xl rounded-t-lg  cursor-pointer fex flex-col space-y-3 z-50 ">
+		<div className=" fixed bottom-0 right-4 bg-white w-full   max-w-xs overflow-hidden  border dark:bg-customBlack-700 dark:border-0  shadow-2xl rounded-t-lg  cursor-pointer fex flex-col space-y-3 z-50 ">
 			<ChatHeader
 				photoURL={user?.photoURL as string}
 				showChat={showChat}

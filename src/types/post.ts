@@ -1,4 +1,7 @@
 export interface PostResponseType {
+	likes?: number
+	comments?: number
+	reposts?: number
 	id?: string
 	imgUrl?: string
 	optionHeadline?: string
@@ -9,5 +12,4 @@ export interface PostResponseType {
 		nanoseconds?: number
 	}
 	name?: string
-	
 }
