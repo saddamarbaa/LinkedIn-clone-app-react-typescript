@@ -296,6 +296,9 @@ export default function Feed() {
 						optionHeadline: doc.data()?.optionHeadline,
 						postContent: doc.data()?.postContent,
 						optionPostImage: doc.data()?.optionPostImage,
+						comments: doc.data()?.comments,
+						reposts: doc.data()?.reposts,
+						likes: doc.data()?.likes,
 						imgUrl: doc.data()?.imgUrl || '/images/linkedin-b.png',
 					})),
 				),
@@ -307,17 +310,17 @@ export default function Feed() {
 	}, [])
 
 	return (
-		<div className="flex-1  shadow-lg max-w-3xl flex flex-col space-y-4 mx-7 mb-52">
+		<div className="flex-1  shadow-lg max-w-3xl flex flex-col  mx-7 mb-52">
 			<PostInput />
 
 			<FlipMove>
-				{posts.map((post) => (
-					<Post key={post.id} post={post} />
+				{posts.map((post, index) => (
+					<Post key={post.id} post={post} index={index} />
 				))}
 			</FlipMove>
 			{/*  Mocked posts */}
-			{mockPosts.map((post) => (
-				<Post key={post.id} post={post} />
+			{mockPosts.map((post, index) => (
+				<Post key={post.id} post={post} index={index} />
 			))}
 		</div>
 	)

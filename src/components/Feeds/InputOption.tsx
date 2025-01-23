@@ -29,7 +29,9 @@ const InputOption = ({
 					style={{ color: color }}
 				/>
 			)}
-			<p className={cn('md:text-lg', titleClassName)}>{title}</p>
+			<p className={cn('md:text-lg  dark:text-white', titleClassName)}>
+				{title}
+			</p>
 		</div>
 	)
 }

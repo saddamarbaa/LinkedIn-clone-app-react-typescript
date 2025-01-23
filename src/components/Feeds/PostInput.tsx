@@ -38,6 +38,9 @@ export default function PostInput() {
 				postContent: postReference,
 				optionPostImage: '',
 				optionHeadline: '',
+				comments: 0,
+				reposts: 0,
+				likes: 0,
 			})
 
 			console.log('Document written with ID: ', docRef.id)
