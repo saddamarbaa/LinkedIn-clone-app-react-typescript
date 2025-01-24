@@ -21,28 +21,35 @@ export default function PostInput() {
 		setPostReference(event.target.value)
 	}
 
-	const submitFormHandler = async (event: { preventDefault: () => void }) => {
+	const submitFormHandler = async (event: React.FormEvent<HTMLFormElement>) => {
 		event.preventDefault()
 
 		// Ensure postReference is not empty before proceeding
-		if (!postReference) {
+		if (!postReference || postReference.trim() === '') {
 			toast.error('Post content cannot be empty.')
 			return
 		}
 
-		try {
-			const docRef = await addDoc(collection(db, 'posts'), {
-				timestamp: serverTimestamp(),
-				name: user?.displayName || 'code.net',
-				imgUrl: user?.photoURL || '/images/linkedin-b.png',
-				postContent: postReference,
-				optionPostImage: '',
-				optionHeadline: '',
-				comments: 0,
-				reposts: 0,
-				likes: 0,
-			})
+		// Extract necessary user data
+		const userData = {
+			email: user?.email || 'Anonymous',
+			displayName: user?.displayName || 'Anonymous User',
+			uid: user?.uid || 'Unknown UID',
+		}
 
+		const formData = {
+			title: '',
+			user: userData, // Only the necessary fields from the user
+			content: postReference,
+			timestamp: serverTimestamp(),
+			userRef: userData.email || userData.displayName,
+			likes: [],
+			comments: [],
+			reposts: [],
+		}
+
+		try {
+			const docRef = await addDoc(collection(db, 'posts'), formData)
 			console.log('Document written with ID: ', docRef.id)
 			setPostReference(null)
 
@@ -52,13 +59,10 @@ export default function PostInput() {
 			console.error('Adding new document failed: ', error)
 
 			// Show error toast
-			if (error?.message) {
-				toast.error(error.message)
-			} else {
-				toast.error('Something went wrong, please try again.')
-			}
+			toast.error(error?.message || 'Something went wrong, please try again.')
 		}
 	}
+
 	return (
 		<Card>
 			<div className="flex space-x-3">

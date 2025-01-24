@@ -7,6 +7,7 @@ type HeaderOptionProps = {
 	IconClassName?: string
 	titleClassName?: string
 	className?: string
+	onClick?: () => void
 }
 
 const InputOption = ({
@@ -16,13 +17,20 @@ const InputOption = ({
 	IconClassName,
 	titleClassName,
 	className,
+	onClick,
 }: HeaderOptionProps) => {
+	function handleIconClick() {
+		if (onClick) {
+			onClick()
+		}
+	}
 	return (
 		<div
 			className={cn(
 				'flex items-center space-x-3 hover:bg-customWhite-200 p-3 w-fit mt-1 transition hover:rounded cursor-pointer dark:hover:bg-customBlack-600 duration-200',
 				className,
-			)}>
+			)}
+			onClick={handleIconClick}>
 			{Icon && (
 				<Icon
 					className={cn('text-gray-600 h-6 w-6 dark:text-white', IconClassName)}

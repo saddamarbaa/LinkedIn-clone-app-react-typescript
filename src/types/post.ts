@@ -1,15 +1,25 @@
+import { AuthResponseType } from './auth'
+
+export interface TimestampT {
+	seconds: number
+	nanoseconds: number
+}
+
+export interface CommentT {
+	text: string
+	user: AuthResponseType
+	timestamp: TimestampT
+}
+
 export interface PostResponseType {
-	likes?: number
-	comments?: number
-	reposts?: number
-	id?: string
-	imgUrl?: string
-	optionHeadline?: string
-	postContent?: string
-	optionPostImage?: string
-	timestamp?: {
-		seconds?: number
-		nanoseconds?: number
-	}
-	name?: string
+	id: string
+	title: string
+	user: AuthResponseType
+	content: string
+	timestamp: TimestampT
+	userRef: string
+	images: string[]
+	reposts?: AuthResponseType[]
+	likes?: AuthResponseType[]
+	comments?: CommentT[]
 }
