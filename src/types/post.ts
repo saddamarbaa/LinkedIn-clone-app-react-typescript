@@ -22,4 +22,13 @@ export interface PostResponseType {
 	reposts?: AuthResponseType[]
 	likes?: AuthResponseType[]
 	comments?: CommentT[]
+	optionPostImage?: string
+	postContent?: string
+}
+
+export type Notification = {
+	id: number
+	title: string
+	time: string
+	icon: 'like' | 'comment' | 'connect' | 'share' | 'endorse'
 }

@@ -1,4 +1,3 @@
-import { Link } from 'react-router'
 import DarkModeSwitch from '../UI/DarkModeSwitch'
 import { BiSearch } from 'react-icons/bi'
 import HeaderOption from './HeaderOption'
@@ -13,6 +12,7 @@ import {
 } from 'react-icons/fa'
 import { useAuthState } from 'react-firebase-hooks/auth'
 import { auth } from '../../config'
+import { Link } from 'react-router'
 
 export default function Header() {
 	const [user] = useAuthState(auth)
@@ -35,7 +35,7 @@ export default function Header() {
 						/>
 					</Link>
 
-					<div className="flex-1 items-center  border  max-w-sm rounded-md cursor-pointer p-1 space-x-2 bg-[#eef3f8]  min-w-[150px] hidden sm:flex  hover:bg-[rgba(220,227,232,1)] focus:bg-[rgba(220,227,232,1)] transition duration-200 dark:bg-customBlack-700 dark:border-customBlack-500 dark:hover:bg-[rgba(100,100,100,1)]">
+					<div className="flex-1 items-center border max-w-sm rounded-md cursor-pointer p-1 space-x-2 bg-[#eef3f8] min-w-[150px] hidden sm:flex hover:bg-[rgba(220,227,232,1)] focus:bg-[rgba(220,227,232,1)] transition duration-200 dark:bg-customBlack-700 dark:border-customBlack-500 dark:hover:bg-[rgba(100,100,100,1)]">
 						<BiSearch className="text-base ml-1" />
 						<input
 							type="text"
@@ -52,23 +52,33 @@ export default function Header() {
 					</div>
 
 					{/* Desktop Header Options */}
-					<HeaderOption Icon={FaHome} title="Home" />
+					<Link to="/">
+						<HeaderOption Icon={FaHome} title="Home" />
+					</Link>
 
 					{/* Desktop View Only - My Network */}
 					<div className="hidden lg:block">
-						<HeaderOption Icon={FaUsers} title="My Network" />
+						<Link to="/my-network">
+							<HeaderOption Icon={FaUsers} title="My Network" />
+						</Link>
 					</div>
 
 					{/* Desktop View Only - Jobs */}
 					<div className="hidden lg:block">
-						<HeaderOption Icon={FaSuitcase} title="Jobs" />
+						<Link to="/jobs">
+							<HeaderOption Icon={FaSuitcase} title="Jobs" />
+						</Link>
 					</div>
 
 					{/* Messaging Icon */}
-					<HeaderOption Icon={FaComments} title="Messaging" />
+					<Link to="/messages">
+						<HeaderOption Icon={FaComments} title="Messaging" />
+					</Link>
 
 					{/* Notifications Icon */}
-					<HeaderOption Icon={FaBell} title="Notifications" isBorderTrue />
+					<Link to="/notifications">
+						<HeaderOption Icon={FaBell} title="Notifications" isBorderTrue />
+					</Link>
 
 					<div className="hidden md:block">
 						<DarkModeSwitch />
@@ -79,32 +89,46 @@ export default function Header() {
 						<HeaderOption
 							NoMarginRight
 							avatar={user?.photoURL || '/images/index.jpg'}
-							title="LogOut"
+							title="Profile"
 						/>
 					</div>
 				</div>
 
 				<div className="hidden flex-1 justify-end items-center space-x-8">
-					<HeaderOption Icon={FaHome} title="Home" />
+					<Link to="/">
+						<HeaderOption Icon={FaHome} title="Home" />
+					</Link>
 					<div className="hidden lg:block">
-						<HeaderOption Icon={FaUsers} title="My Network" />
+						<Link to="/my-network">
+							<HeaderOption Icon={FaUsers} title="My Network" />
+						</Link>
 					</div>
 					<div className="hidden lg:block">
-						<HeaderOption Icon={FaSuitcase} title="Jobs" showNotification />
+						<Link to="/jobs">
+							<HeaderOption Icon={FaSuitcase} title="Jobs" showNotification />
+						</Link>
 					</div>
-					<HeaderOption Icon={FaComments} title="Messaging" />
-					<HeaderOption
-						Icon={FaBell}
-						title="Notifications"
-						showNotification={true}
-					/>
+					<Link to="/messages">
+						<HeaderOption Icon={FaComments} title="Messaging" />
+					</Link>
+					<Link to="/notifications">
+						<HeaderOption
+							Icon={FaBell}
+							title="Notifications"
+							showNotification={true}
+						/>
+					</Link>
 
 					<div className="hidden lg:block">
-						<HeaderOption Icon={FaUsers} title="My Network" />
+						<Link to="/my-network">
+							<HeaderOption Icon={FaUsers} title="My Network" />
+						</Link>
 					</div>
 
 					<div className="hidden md:block">
-						<HeaderOption NoMarginRight Icon={FaShoppingBag} title="Jobs" />
+						<Link to="/shop">
+							<HeaderOption NoMarginRight Icon={FaShoppingBag} title="Jobs" />
+						</Link>
 					</div>
 
 					<div className="hidden md:block">

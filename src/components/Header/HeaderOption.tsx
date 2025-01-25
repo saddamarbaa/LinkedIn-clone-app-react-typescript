@@ -37,7 +37,7 @@ const HeaderOption = ({
 				NoMarginRight ? 'mr-0' : 'mr-7.5'
 			} relative`}>
 			{title === 'Notifications' && (
-				<span className="absolute -top-[12px] right-[13px] bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
+				<span className="absolute -top-[12px] right-[13px] bg-red-500 text-white text-[11px] font-bold rounded-full h-5 w-5 flex items-center justify-center">
 					{notificationCount}
 				</span>
 			)}

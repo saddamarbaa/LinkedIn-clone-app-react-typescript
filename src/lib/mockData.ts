@@ -59,6 +59,434 @@ export const mockChats: ChatT[] = [
 	},
 ]
 
+export const fakeUsers = [
+	{
+		name: 'Everett',
+		username: 'Everett.Reilly95',
+		avatar: 'https://cdn.fakercloud.com/avatars/sawrb_128.jpg',
+		email: 'Everett.Reilly95.Gerlach@gmail.com',
+		dob: '1982-06-30T10:19:21.807Z',
+		phone: '(803) 642-6327',
+		address: {
+			street: 'Dickinson Center',
+			suite: 'Apt. 746',
+			city: 'Wymanchester',
+			zipcode: '66927',
+			geo: {
+				lat: '73.3270',
+				lng: '108.5247',
+			},
+		},
+		website: 'thurman.info',
+		company: {
+			name: 'Bayer, Murazik and Gottlieb',
+			catchPhrase: 'Upgradable 6th generation circuit',
+			bs: 'scale proactive niches',
+		},
+		id: 0,
+	},
+	{
+		name: 'Valerie',
+		username: 'Valerie_Marvin',
+		avatar: 'https://cdn.fakercloud.com/avatars/falconerie_128.jpg',
+		email: 'Valerie_Marvin_Flatley6@yahoo.com',
+		dob: '1958-09-22T07:30:44.813Z',
+		phone: '1-256-897-1523',
+		address: {
+			street: 'Chandler Wall',
+			suite: 'Apt. 468',
+			city: 'South Edward',
+			zipcode: '60167-8264',
+			geo: {
+				lat: '-71.3149',
+				lng: '-153.2936',
+			},
+		},
+		website: 'loyal.info',
+		company: {
+			name: 'Nicolas - Kuhic',
+			catchPhrase: 'Optimized zero defect Graphical User Interface',
+			bs: 'empower distributed vortals',
+		},
+		id: 1,
+	},
+	{
+		name: 'Gregg',
+		username: 'Gregg6',
+		avatar: 'https://cdn.fakercloud.com/avatars/evanshajed_128.jpg',
+		email: 'Gregg6.Murray@gmail.com',
+		dob: '1974-04-24T17:50:03.783Z',
+		phone: '1-248-211-7223 x795',
+		address: {
+			street: 'Johns Crest',
+			suite: 'Suite 465',
+			city: 'East Susanna',
+			zipcode: '63751',
+			geo: {
+				lat: '13.3309',
+				lng: '151.7477',
+			},
+		},
+		website: 'greyson.org',
+		company: {
+			name: 'Bashirian, Upton and Doyle',
+			catchPhrase: 'Synergistic zero administration approach',
+			bs: 'envisioneer one-to-one schemas',
+		},
+		id: 2,
+	},
+	{
+		name: 'Maud',
+		username: 'Maud_Jacobson9',
+		avatar: 'https://cdn.fakercloud.com/avatars/jedbridges_128.jpg',
+		email: 'Maud_Jacobson9.Boyer99@gmail.com',
+		dob: '1961-11-28T02:45:29.061Z',
+		phone: '959-536-5978 x33491',
+		address: {
+			street: 'Lockman Coves',
+			suite: 'Apt. 070',
+			city: 'Attleboro',
+			zipcode: '83825-8167',
+			geo: {
+				lat: '9.9947',
+				lng: '-90.8921',
+			},
+		},
+		website: 'nina.biz',
+		company: {
+			name: 'Wiza - Kihn',
+			catchPhrase: 'Enterprise-wide user-facing array',
+			bs: 'engage bleeding-edge systems',
+		},
+		id: 3,
+	},
+	{
+		name: 'Cade',
+		username: 'Cade_Heaney59',
+		avatar: 'https://cdn.fakercloud.com/avatars/ankitind_128.jpg',
+		email: 'Cade_Heaney59.Krajcik@gmail.com',
+		dob: '1981-01-03T14:21:24.238Z',
+		phone: '(969) 494-9886',
+		address: {
+			street: 'Jordyn Island',
+			suite: 'Suite 552',
+			city: 'Beattytown',
+			zipcode: '44210',
+			geo: {
+				lat: '-88.5353',
+				lng: '103.5527',
+			},
+		},
+		website: 'anthony.name',
+		company: {
+			name: 'Padberg - Dare',
+			catchPhrase: 'Operative content-based orchestration',
+			bs: 'harness proactive methodologies',
+		},
+		id: 4,
+	},
+	{
+		name: 'Ted',
+		username: 'Ted_Jast',
+		avatar: 'https://cdn.fakercloud.com/avatars/brandclay_128.jpg',
+		email: 'Ted_Jast_Rath63@gmail.com',
+		dob: '1981-05-28T01:00:28.840Z',
+		phone: '(643) 779-4889 x7964',
+		address: {
+			street: 'Noemy Pike',
+			suite: 'Apt. 610',
+			city: 'Smyrna',
+			zipcode: '09137-1642',
+			geo: {
+				lat: '34.7664',
+				lng: '7.1243',
+			},
+		},
+		website: 'baron.name',
+		company: {
+			name: 'Veum, Smith and Pfeffer',
+			catchPhrase: 'Total attitude-oriented focus group',
+			bs: 'streamline efficient methodologies',
+		},
+		id: 5,
+	},
+	{
+		name: 'Hector',
+		username: 'Hector.Haley',
+		avatar: 'https://cdn.fakercloud.com/avatars/themadray_128.jpg',
+		email: 'Hector.Haley_Schoen@yahoo.com',
+		dob: '1951-04-12T01:55:57.078Z',
+		phone: '519-546-3484',
+		address: {
+			street: 'Ena Vista',
+			suite: 'Suite 509',
+			city: 'Rochester',
+			zipcode: '14200-2605',
+			geo: {
+				lat: '-66.9962',
+				lng: '162.0399',
+			},
+		},
+		website: 'eugenia.info',
+		company: {
+			name: "O'Kon - Dare",
+			catchPhrase: 'Enterprise-wide well-modulated methodology',
+			bs: 'deploy bricks-and-clicks users',
+		},
+		id: 6,
+	},
+	{
+		name: 'Tre',
+		username: 'Tre62',
+		avatar: 'https://cdn.fakercloud.com/avatars/VinThomas_128.jpg',
+		email: 'Tre62_Wisoky@hotmail.com',
+		dob: '1980-11-28T02:01:16.609Z',
+		phone: '892.426.5360 x4295',
+		address: {
+			street: 'Linnea Pike',
+			suite: 'Apt. 835',
+			city: 'Parker',
+			zipcode: '01000-3101',
+			geo: {
+				lat: '4.0154',
+				lng: '-175.7375',
+			},
+		},
+		website: 'jordyn.org',
+		company: {
+			name: 'Ratke Inc',
+			catchPhrase: 'Innovative mission-critical standardization',
+			bs: 'architect turn-key bandwidth',
+		},
+		id: 7,
+	},
+	{
+		name: 'Raymond',
+		username: 'Raymond_Herman46',
+		avatar: 'https://cdn.fakercloud.com/avatars/klefue_128.jpg',
+		email: 'Raymond_Herman4699@yahoo.com',
+		dob: '1985-12-29T11:44:36.902Z',
+		phone: '1-715-624-2961',
+		address: {
+			street: 'Ryan Forge',
+			suite: 'Apt. 982',
+			city: 'Kenyaport',
+			zipcode: '76127',
+			geo: {
+				lat: '-73.8780',
+				lng: '-37.4484',
+			},
+		},
+		website: 'deonte.name',
+		company: {
+			name: 'Schimmel, Hodkiewicz and Smitham',
+			catchPhrase: 'Upgradable eco-centric application',
+			bs: 'optimize scalable applications',
+		},
+		id: 8,
+	},
+	{
+		name: 'Wilton',
+		username: 'Wilton_Nicolas21',
+		avatar: 'https://cdn.fakercloud.com/avatars/perretmagali_128.jpg',
+		email: 'Wilton_Nicolas21.Luettgen@yahoo.com',
+		dob: '1945-03-08T19:41:30.511Z',
+		phone: '1-905-275-7411 x573',
+		address: {
+			street: 'Towne Isle',
+			suite: 'Suite 922',
+			city: 'Rexstad',
+			zipcode: '34037',
+			geo: {
+				lat: '-51.8081',
+				lng: '-42.3931',
+			},
+		},
+		website: 'mekhi.net',
+		company: {
+			name: "O'Connell Group",
+			catchPhrase: 'Reactive system-worthy standardization',
+			bs: 'seize seamless deliverables',
+		},
+		id: 9,
+	},
+	{
+		name: 'Keaton',
+		username: 'Keaton_Bechtelar',
+		avatar: 'https://cdn.fakercloud.com/avatars/aka_james_128.jpg',
+		email: 'Keaton_Bechtelar.Runte@yahoo.com',
+		dob: '1984-02-27T17:16:26.288Z',
+		phone: '711.295.2692',
+		address: {
+			street: 'Rodrigo Wells',
+			suite: 'Apt. 296',
+			city: 'Wavabury',
+			zipcode: '36724-5403',
+			geo: {
+				lat: '-63.2973',
+				lng: '36.7935',
+			},
+		},
+		website: 'dejuan.org',
+		company: {
+			name: 'Tillman and Sons',
+			catchPhrase: 'Stand-alone optimizing encryption',
+			bs: 'architect viral e-markets',
+		},
+		id: 10,
+	},
+	{
+		name: 'Marshall',
+		username: 'Marshall35',
+		avatar: 'https://cdn.fakercloud.com/avatars/croakx_128.jpg',
+		email: 'Marshall35.Gorczany78@yahoo.com',
+		dob: '1951-05-04T16:56:22.503Z',
+		phone: '(552) 919-2459',
+		address: {
+			street: 'Sauer Turnpike',
+			suite: 'Apt. 322',
+			city: 'Lake Joannyshire',
+			zipcode: '15527-3349',
+			geo: {
+				lat: '-20.8791',
+				lng: '74.2830',
+			},
+		},
+		website: 'anissa.net',
+		company: {
+			name: 'Heller LLC',
+			catchPhrase: 'Visionary secondary archive',
+			bs: 'streamline impactful deliverables',
+		},
+		id: 11,
+	},
+	{
+		name: 'Kurtis',
+		username: 'Kurtis.Goldner86',
+		avatar: 'https://cdn.fakercloud.com/avatars/rdsaunders_128.jpg',
+		email: 'Kurtis.Goldner86_Streich44@gmail.com',
+		dob: '1950-11-24T01:01:03.459Z',
+		phone: '864-232-3263',
+		address: {
+			street: 'Harvey Vista',
+			suite: 'Apt. 606',
+			city: 'South Laviniaborough',
+			zipcode: '38254-8620',
+			geo: {
+				lat: '-54.1293',
+				lng: '-16.6453',
+			},
+		},
+		website: 'kirk.net',
+		company: {
+			name: 'Pfannerstill - Lebsack',
+			catchPhrase: 'De-engineered 6th generation alliance',
+			bs: 'repurpose rich platforms',
+		},
+		id: 12,
+	},
+	{
+		name: 'Elenora',
+		username: 'Elenora23',
+		avatar: 'https://cdn.fakercloud.com/avatars/tanveerrao_128.jpg',
+		email: 'Elenora23.Reilly@yahoo.com',
+		dob: '1970-11-29T20:40:39.656Z',
+		phone: '672.949.2157 x49354',
+		address: {
+			street: 'Kurtis Court',
+			suite: 'Suite 022',
+			city: 'Minot',
+			zipcode: '34767-3084',
+			geo: {
+				lat: '89.5804',
+				lng: '37.2235',
+			},
+		},
+		website: 'kirk.org',
+		company: {
+			name: 'Quigley, Leuschke and Emmerich',
+			catchPhrase: 'Function-based hybrid local area network',
+			bs: 'expedite scalable channels',
+		},
+		id: 13,
+	},
+	{
+		name: 'Sophie',
+		username: 'Sophie.Pagac2',
+		avatar: 'https://cdn.fakercloud.com/avatars/lanceguyatt_128.jpg',
+		email: 'Sophie.Pagac2.West43@gmail.com',
+		dob: '1988-06-27T20:28:18.626Z',
+		phone: '898-225-2579 x728',
+		address: {
+			street: 'Rosendo Courts',
+			suite: 'Suite 564',
+			city: 'Port Boris',
+			zipcode: '90928-2973',
+			geo: {
+				lat: '25.4292',
+				lng: '116.6464',
+			},
+		},
+		website: 'daphne.name',
+		company: {
+			name: 'King - Heidenreich',
+			catchPhrase: 'Persistent zero tolerance neural-net',
+			bs: 'deploy strategic initiatives',
+		},
+		id: 14,
+	},
+	{
+		name: 'Julianne',
+		username: 'Julianne.Lesch28',
+		avatar: 'https://cdn.fakercloud.com/avatars/GavicoInd_128.jpg',
+		email: 'Julianne.Lesch28.Powlowski61@hotmail.com',
+		dob: '1978-10-17T11:12:40.998Z',
+		phone: '(866) 935-7519 x317',
+		address: {
+			street: 'Carroll Loaf',
+			suite: 'Suite 744',
+			city: 'Schultzland',
+			zipcode: '94154-1796',
+			geo: {
+				lat: '23.0763',
+				lng: '-1.8734',
+			},
+		},
+		website: 'ramona.name',
+		company: {
+			name: 'Bins - Wintheiser',
+			catchPhrase: 'Synchronised 24/7 project',
+			bs: 'productize cutting-edge mindshare',
+		},
+		id: 15,
+	},
+	{
+		name: 'Joshuah',
+		username: 'Joshuah_Maggio',
+		avatar: 'https://cdn.fakercloud.com/avatars/amayvs_128.jpg',
+		email: 'Joshuah_Maggio_Prosacco@gmail.com',
+		dob: '1973-12-05T07:31:35.411Z',
+		phone: '(804) 945-1127',
+		address: {
+			street: 'Alexa Cliffs',
+			suite: 'Apt. 713',
+			city: 'New Rosemarymouth',
+			zipcode: '97761',
+			geo: {
+				lat: '35.3283',
+				lng: '151.7149',
+			},
+		},
+		website: 'wilbert.com',
+		company: {
+			name: 'Muller - Daugherty',
+			catchPhrase: 'Focused next generation archive',
+			bs: 'transform distributed platforms',
+		},
+		id: 16,
+	},
+]
+
 export const mockPosts = [
 	{
 		name: 'Web Development Coach | Saddam Arbaa',
@@ -97,6 +525,473 @@ export const mockPosts = [
 					uid: 2,
 				},
 			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 99,
+				},
+			},
+			{
+				text: 'Great attitude, keep up the momentum!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 22,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 19,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Tim Cook',
+					photoURL: 'https://avatar.iran.liara.run/public/boy?username=TimCook',
+					uid: 29,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 4,
+				},
+			},
+			{
+				text: 'Great work so far, keep it up!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 92,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Shantanu Narayen',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ShantanuNarayen',
+					uid: 60,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 8,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 46,
+				},
+			},
+			{
+				text: 'Your hard work will pay off soon!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 75,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 18,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 78,
+				},
+			},
+			{
+				text: 'Stay strong, success is within reach!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 36,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 83,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 66,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 91,
+				},
+			},
+			{
+				text: 'Great work so far, keep it up!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 23,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 33,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 11,
+				},
+			},
+			{
+				text: "Believe in yourself, you're doing amazing!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 77,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Max Levchin',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MaxLevchin',
+					uid: 27,
+				},
+			},
+			{
+				text: 'Wishing you all the best!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 3,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 37,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 9,
+				},
+			},
+			{
+				text: 'Keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 93,
+				},
+			},
+			{
+				text: "Believe in yourself, you're doing amazing!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Rachel Holt',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RachelHolt',
+					uid: 28,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Elon Musk',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ElonMusk',
+					uid: 21,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sheryl Sandberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SherylSandberg',
+					uid: 57,
+				},
+			},
+			{
+				text: 'Your hard work will pay off soon!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 12,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 72,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 7,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Larry Page',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=LarryPage',
+					uid: 67,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 17,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 31,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 6,
+				},
+			},
+			{
+				text: 'Opportunities are closer than you think!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Evan Spiegel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=EvanSpiegel',
+					uid: 63,
+				},
+			},
 		],
 		reposts: [],
 		id: 'randaom',
@@ -112,27 +1007,561 @@ export const mockPosts = [
 		likes: 105,
 		comments: [
 			{
-				text: 'Hope you find your next role soon!',
+				text: 'You got this! 🚀',
 				timestamp: {
-					seconds: Math.floor(Date.now() / 1000),
+					seconds: 1737782606,
 					nanoseconds: 0,
 				},
 				user: {
-					displayName: 'Alice Wonderland',
-					photoURL: 'https://randomuser.me/api/portraits/women/7.jpg',
+					displayName: 'Meg Whitman',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MegWhitman',
+					uid: 38,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 64,
+				},
+			},
+			{
+				text: 'Great work so far, keep it up!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 23,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Elon Musk',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ElonMusk',
+					uid: 21,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 8,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Michael Seibel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MichaelSeibel',
+					uid: 69,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Kevin Systrom',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=KevinSystrom',
+					uid: 14,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Max Levchin',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MaxLevchin',
+					uid: 27,
+				},
+			},
+			{
+				text: 'Great work so far, keep it up!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 92,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 66,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 25,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 34,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 1,
+				},
+			},
+			{
+				text: 'This is just the beginning, great things ahead!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 49,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 78,
+				},
+			},
+			{
+				text: "Keep pushing forward, you're almost there!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 70,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Angela Ahrendts',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AngelaAhrendts',
+					uid: 10,
+				},
+			},
+			{
+				text: 'Stay strong, success is within reach!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 36,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Brian Chesky',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=BrianChesky',
+					uid: 51,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 17,
+				},
+			},
+			{
+				text: 'Keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 87,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 62,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 47,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 46,
+				},
+			},
+			{
+				text: 'Wishing you all the best!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
 					uid: 3,
 				},
 			},
 			{
-				text: "You're going to crush it! Let's chat sometime about opportunities!",
+				text: 'You’re going to do amazing things!',
 				timestamp: {
-					seconds: Math.floor(Date.now() / 1000),
+					seconds: 1737782606,
 					nanoseconds: 0,
 				},
 				user: {
-					displayName: 'Bill Gates',
-					photoURL: 'https://randomuser.me/api/portraits/men/8.jpg',
-					uid: 4,
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 33,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Tim Cook',
+					photoURL: 'https://avatar.iran.liara.run/public/boy?username=TimCook',
+					uid: 29,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Diane Greene',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=DianeGreene',
+					uid: 65,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 24,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Michael Seibel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MichaelSeibel',
+					uid: 80,
+				},
+			},
+			{
+				text: 'Your hard work will pay off soon!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 100,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 11,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Rachel Holt',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RachelHolt',
+					uid: 68,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 99,
+				},
+			},
+			{
+				text: 'Stay focused, big things are ahead!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Elon Musk',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ElonMusk',
+					uid: 43,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 86,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 15,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 6,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ruth Porat',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RuthPorat',
+					uid: 76,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 31,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Leah Busque',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=LeahBusque',
+					uid: 97,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 32,
+				},
+			},
+			{
+				text: "Good things are coming, don't give up!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 42,
 				},
 			},
 		],
@@ -149,27 +1578,405 @@ export const mockPosts = [
 		likes: 95,
 		comments: [
 			{
-				text: 'Let me know if you need help with job search!',
+				text: "You're capable of achieving great things!",
 				timestamp: {
-					seconds: Math.floor(Date.now() / 1000),
+					seconds: 1737782606,
 					nanoseconds: 0,
 				},
 				user: {
-					displayName: 'John Doe',
-					photoURL: 'https://randomuser.me/api/portraits/men/1.jpg',
-					uid: 5,
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 56,
 				},
 			},
 			{
-				text: 'Best of luck! Networking is key—let me know if I can help with introductions.',
+				text: "You're making great strides, keep at it!",
 				timestamp: {
-					seconds: Math.floor(Date.now() / 1000),
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 15,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 11,
+				},
+			},
+			{
+				text: 'Your hard work will pay off soon!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 12,
+				},
+			},
+			{
+				text: "Network well, you'll find the right opportunity!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 16,
+				},
+			},
+			{
+				text: 'Keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Larry Page',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=LarryPage',
+					uid: 41,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 82,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 99,
+				},
+			},
+			{
+				text: "Good things are coming, don't give up!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sergey Brin',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SergeyBrin',
+					uid: 39,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Shantanu Narayen',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ShantanuNarayen',
+					uid: 60,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ruth Porat',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RuthPorat',
+					uid: 76,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Shantanu Narayen',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ShantanuNarayen',
+					uid: 84,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 4,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Max Levchin',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MaxLevchin',
+					uid: 27,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 7,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 90,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 54,
+				},
+			},
+			{
+				text: 'Stay strong, success is within reach!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 36,
+				},
+			},
+			{
+				text: 'Opportunities are closer than you think!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 58,
+				},
+			},
+			{
+				text: "Believe in yourself, you're doing amazing!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Rachel Holt',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RachelHolt',
+					uid: 28,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 25,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 78,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Meg Whitman',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MegWhitman',
+					uid: 38,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 48,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Tim Cook',
+					photoURL: 'https://avatar.iran.liara.run/public/boy?username=TimCook',
+					uid: 29,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
 					nanoseconds: 0,
 				},
 				user: {
 					displayName: 'Sundar Pichai',
-					photoURL: 'https://randomuser.me/api/portraits/men/5.jpg',
-					uid: 6,
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 52,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Padmasree Warrior',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=PadmasreeWarrior',
+					uid: 26,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 95,
+				},
+			},
+			{
+				text: 'Great work so far, keep it up!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 92,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Safra Catz',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SafraCatz',
+					uid: 74,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jack Dorsey',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JackDorsey',
+					uid: 5,
 				},
 			},
 		],
@@ -184,7 +1991,515 @@ export const mockPosts = [
 			'I am looking for a new role DM me on Linkedin (Saddam Arbaa) for any Remote or freelancing opportunities. Thank you in advance for any connections, advice, or opportunities you can offer',
 		optionPostImage: '/images/LinkedIns.png',
 		likes: 85,
-		comments: [],
+		comments: [
+			{
+				text: 'Your hard work will pay off soon!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 100,
+				},
+			},
+			{
+				text: "Network well, you'll find the right opportunity!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 88,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 59,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Brian Chesky',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=BrianChesky',
+					uid: 51,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Leah Busque',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=LeahBusque',
+					uid: 97,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 53,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 32,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 73,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sheryl Sandberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SherylSandberg',
+					uid: 57,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 9,
+				},
+			},
+			{
+				text: 'Your hard work will pay off soon!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 12,
+				},
+			},
+			{
+				text: 'Wishing you all the best!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 94,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 95,
+				},
+			},
+			{
+				text: 'Great work so far, keep it up!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 92,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 24,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 11,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 83,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 72,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Max Levchin',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MaxLevchin',
+					uid: 27,
+				},
+			},
+			{
+				text: 'Your hard work will pay off soon!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 75,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 31,
+				},
+			},
+			{
+				text: "Good things are coming, don't give up!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 42,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 52,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 46,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ruth Porat',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RuthPorat',
+					uid: 76,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 4,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 64,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Leah Busque',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=LeahBusque',
+					uid: 2,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 19,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 61,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 15,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Rachel Holt',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RachelHolt',
+					uid: 68,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Larry Page',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=LarryPage',
+					uid: 67,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 1,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 25,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 55,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Shantanu Narayen',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ShantanuNarayen',
+					uid: 60,
+				},
+			},
+			{
+				text: 'Stay strong, success is within reach!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 36,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 34,
+				},
+			},
+		],
 		reposts: 5,
 	},
 	{
@@ -196,7 +2511,579 @@ export const mockPosts = [
 			'Follow me on Github (saddamarbaa) for more React + Next Js projects implementation',
 		optionPostImage: '/images/github.png',
 		likes: 120,
-		comments: [],
+		comments: [
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 19,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ruth Porat',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RuthPorat',
+					uid: 13,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 25,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sheryl Sandberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SherylSandberg',
+					uid: 57,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 73,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 61,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 32,
+				},
+			},
+			{
+				text: 'Your hard work will pay off soon!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 12,
+				},
+			},
+			{
+				text: 'Wishing you all the best!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 3,
+				},
+			},
+			{
+				text: 'Your hard work will pay off soon!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 75,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Tim Cook',
+					photoURL: 'https://avatar.iran.liara.run/public/boy?username=TimCook',
+					uid: 29,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 1,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 52,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 72,
+				},
+			},
+			{
+				text: 'Stay strong, success is within reach!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 36,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 53,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 34,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Leah Busque',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=LeahBusque',
+					uid: 97,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Max Levchin',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MaxLevchin',
+					uid: 27,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 4,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Shantanu Narayen',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ShantanuNarayen',
+					uid: 60,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 35,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 47,
+				},
+			},
+			{
+				text: 'Great attitude, keep up the momentum!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sheryl Sandberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SherylSandberg',
+					uid: 89,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 66,
+				},
+			},
+			{
+				text: 'Great work so far, keep it up!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 23,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Kevin Systrom',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=KevinSystrom',
+					uid: 14,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 81,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 78,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 7,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 33,
+				},
+			},
+			{
+				text: 'Great work so far, keep it up!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 92,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Larry Page',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=LarryPage',
+					uid: 67,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 37,
+				},
+			},
+			{
+				text: "Good things are coming, don't give up!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 42,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 45,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 64,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 83,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Angela Ahrendts',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AngelaAhrendts',
+					uid: 10,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Michael Seibel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MichaelSeibel',
+					uid: 80,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Diane Greene',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=DianeGreene',
+					uid: 65,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Safra Catz',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SafraCatz',
+					uid: 74,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 95,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 20,
+				},
+			},
+		],
 		reposts: 10,
 	},
 	{
@@ -208,7 +3095,580 @@ export const mockPosts = [
 			'Follow me on Twitter (Web Development Coach | Saddam Arbaa) Today I coded 7 hrs 47 mins towards my @WakaTime goal of coding 1 hr per day except Saturday. https://wakatime.com/goals',
 		optionPostImage: '/images/twiter.png',
 		likes: 110,
-		comments: [],
+		comments: [
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ruth Porat',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RuthPorat',
+					uid: 13,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 56,
+				},
+			},
+			{
+				text: 'Keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 87,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jack Dorsey',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JackDorsey',
+					uid: 5,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 90,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Larry Page',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=LarryPage',
+					uid: 67,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 15,
+				},
+			},
+			{
+				text: 'Opportunities are closer than you think!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Evan Spiegel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=EvanSpiegel',
+					uid: 63,
+				},
+			},
+			{
+				text: 'This is just the beginning, great things ahead!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 49,
+				},
+			},
+			{
+				text: 'Keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 93,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 35,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 82,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 8,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Padmasree Warrior',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=PadmasreeWarrior',
+					uid: 26,
+				},
+			},
+			{
+				text: "Good things are coming, don't give up!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 42,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 86,
+				},
+			},
+			{
+				text: 'Great attitude, keep up the momentum!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sheryl Sandberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SherylSandberg',
+					uid: 89,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 31,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Michael Seibel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MichaelSeibel',
+					uid: 69,
+				},
+			},
+			{
+				text: 'Stay focused, big things are ahead!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Elon Musk',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ElonMusk',
+					uid: 43,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sheryl Sandberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SherylSandberg',
+					uid: 30,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 4,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 55,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Elon Musk',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ElonMusk',
+					uid: 21,
+				},
+			},
+			{
+				text: "Network well, you'll find the right opportunity!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 88,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ruth Porat',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RuthPorat',
+					uid: 76,
+				},
+			},
+			{
+				text: 'Great attitude, keep up the momentum!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 22,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 64,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 53,
+				},
+			},
+			{
+				text: 'Your hard work will pay off soon!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 12,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 17,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 9,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 99,
+				},
+			},
+			{
+				text: "Believe in yourself, you're doing amazing!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Rachel Holt',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RachelHolt',
+					uid: 28,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 32,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Michael Seibel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MichaelSeibel',
+					uid: 80,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 24,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 34,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Rachel Holt',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RachelHolt',
+					uid: 68,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 78,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 47,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 91,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Shantanu Narayen',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ShantanuNarayen',
+					uid: 84,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 46,
+				},
+			},
+		],
 		reposts: 11,
 	},
 	{
@@ -219,7 +3679,515 @@ export const mockPosts = [
 		postContent: '“mentor” DM me on Instagram (saddam.dev) for 1-1 mentoring',
 		optionPostImage: '/images/instgram.png',
 		likes: 130,
-		comments: 10,
+		comments: [
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 59,
+				},
+			},
+			{
+				text: "Network well, you'll find the right opportunity!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 16,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Leah Busque',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=LeahBusque',
+					uid: 2,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 73,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Meg Whitman',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MegWhitman',
+					uid: 38,
+				},
+			},
+			{
+				text: 'Wishing you all the best!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 94,
+				},
+			},
+			{
+				text: "Believe in yourself, you're doing amazing!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 77,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 45,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 7,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 18,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Brian Chesky',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=BrianChesky',
+					uid: 51,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 1,
+				},
+			},
+			{
+				text: 'This is just the beginning, great things ahead!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 44,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Diane Greene',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=DianeGreene',
+					uid: 79,
+				},
+			},
+			{
+				text: 'Stay focused, big things are ahead!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Elon Musk',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ElonMusk',
+					uid: 43,
+				},
+			},
+			{
+				text: 'Keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 93,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 6,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 96,
+				},
+			},
+			{
+				text: 'This is just the beginning, great things ahead!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 49,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Kevin Systrom',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=KevinSystrom',
+					uid: 14,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 33,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Angela Ahrendts',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AngelaAhrendts',
+					uid: 10,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 19,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 78,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 34,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 20,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 82,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 24,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 53,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 99,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 55,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 62,
+				},
+			},
+			{
+				text: 'Great attitude, keep up the momentum!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 22,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 95,
+				},
+			},
+			{
+				text: 'Your hard work will pay off soon!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 100,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Diane Greene',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=DianeGreene',
+					uid: 65,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 15,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 54,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 86,
+				},
+			},
+		],
 		reposts: 15,
 	},
 	{
@@ -227,21 +4195,493 @@ export const mockPosts = [
 		optionHeadline:
 			'Full-Stack Developer | Front-End Developer | Reactjs + Redux + Next js + JavaScript + TypeScript + Node.js + Express + MongoDB',
 		imgUrl: 'https://avatars.githubusercontent.com/u/51326421?v=4',
-		postContent: `▸ I Made LinkedIn Clone Application
-▸ Project descriptions
-A demo of LinkedIn Clone with the main functionality built with React Js, Redux (a mobile-friendly).
-▸ Features
-● Complete user authentication users can sign in, sign out
-● Add post
-▸ Tech Stack
-● Client: React Js, Redux, Styled Component, Material-UI
-● Server: Firebase Realtime Database, Firebase Google Authentication, Firebase Email, and password Authentication
-▸ Hosting: hosted on Firebase hosting.
-▸ GitHub Repo: https://github.com/saddamarbaa/LinkedIn-clone-app
-▸ I would love to hear feedback from you please write me in the comment`,
+		postContent:
+			'▸ I Made LinkedIn Clone Application\n▸ Project descriptions\nA demo of LinkedIn Clone with the main functionality built with React Js, Redux (a mobile-friendly).\n▸ Features\n● Complete user authentication users can sign in, sign out\n● Add post\n▸ Tech Stack\n● Client: React Js, Redux, Styled Component, Material-UI\n● Server: Firebase Realtime Database, Firebase Google Authentication, Firebase Email, and password Authentication\n▸ Hosting: hosted on Firebase hosting.\n▸ GitHub Repo: https://github.com/saddamarbaa/LinkedIn-clone-app\n▸ I would love to hear feedback from you please write me in the comment',
 		optionPostImage: '/images/my-app.png',
 		likes: 140,
-		comments: 12,
+		comments: [
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 59,
+				},
+			},
+			{
+				text: 'Opportunities are closer than you think!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Evan Spiegel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=EvanSpiegel',
+					uid: 63,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 18,
+				},
+			},
+			{
+				text: 'Stay focused, big things are ahead!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Elon Musk',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ElonMusk',
+					uid: 43,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 45,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Max Levchin',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MaxLevchin',
+					uid: 27,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 35,
+				},
+			},
+			{
+				text: 'Keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Larry Page',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=LarryPage',
+					uid: 41,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ruth Porat',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RuthPorat',
+					uid: 76,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 33,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 47,
+				},
+			},
+			{
+				text: 'Your hard work will pay off soon!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 100,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ginni Rometty',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=GinniRometty',
+					uid: 50,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Angela Ahrendts',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AngelaAhrendts',
+					uid: 10,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 96,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Michael Seibel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MichaelSeibel',
+					uid: 80,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sheryl Sandberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SherylSandberg',
+					uid: 30,
+				},
+			},
+			{
+				text: "Network well, you'll find the right opportunity!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 88,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Shantanu Narayen',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ShantanuNarayen',
+					uid: 60,
+				},
+			},
+			{
+				text: "Network well, you'll find the right opportunity!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 16,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 56,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Kevin Systrom',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=KevinSystrom',
+					uid: 14,
+				},
+			},
+			{
+				text: 'Great work so far, keep it up!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 23,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 82,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 20,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 61,
+				},
+			},
+			{
+				text: 'Your hard work will pay off soon!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 12,
+				},
+			},
+			{
+				text: 'Opportunities are closer than you think!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 58,
+				},
+			},
+			{
+				text: 'Wishing you all the best!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 94,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 54,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 95,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 66,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 46,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 17,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ginni Rometty',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=GinniRometty',
+					uid: 71,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Brian Chesky',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=BrianChesky',
+					uid: 40,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 48,
+				},
+			},
+		],
 		reposts: 17,
 	},
 	{
@@ -253,7 +4693,424 @@ A demo of LinkedIn Clone with the main functionality built with React Js, Redux 
 			'I just finished learning about React Context API and how it can help simplify state management! Have you tried using Context API or are you a Redux fan?',
 		optionPostImage: '/images/redux.png',
 		likes: 150,
-		comments: 12,
+		comments: [
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 45,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 59,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 9,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 35,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 32,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 72,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 31,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ruth Porat',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RuthPorat',
+					uid: 76,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Michael Seibel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MichaelSeibel',
+					uid: 80,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Max Levchin',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MaxLevchin',
+					uid: 27,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 96,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Leah Busque',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=LeahBusque',
+					uid: 2,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 15,
+				},
+			},
+			{
+				text: "Network well, you'll find the right opportunity!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 16,
+				},
+			},
+			{
+				text: 'Stay strong, success is within reach!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 36,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ginni Rometty',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=GinniRometty',
+					uid: 50,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 95,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 4,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jack Dorsey',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JackDorsey',
+					uid: 5,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 47,
+				},
+			},
+			{
+				text: 'Wishing you all the best!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 3,
+				},
+			},
+			{
+				text: 'Your hard work will pay off soon!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 100,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ruth Porat',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RuthPorat',
+					uid: 13,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 91,
+				},
+			},
+			{
+				text: "Believe in yourself, you're doing amazing!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 77,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 20,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 90,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Safra Catz',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SafraCatz',
+					uid: 74,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 37,
+				},
+			},
+			{
+				text: 'Keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 98,
+				},
+			},
+			{
+				text: 'Great attitude, keep up the momentum!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 22,
+				},
+			},
+			{
+				text: "Believe in yourself, you're doing amazing!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Rachel Holt',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RachelHolt',
+					uid: 28,
+				},
+			},
+		],
 		reposts: 10,
 	},
 	{
@@ -265,7 +5122,437 @@ A demo of LinkedIn Clone with the main functionality built with React Js, Redux 
 			'JavaScript Tip: Did you know that you can destructure objects directly in function parameters? Makes the code super clean!',
 		optionPostImage: 'images/javascript.webp',
 		likes: 90,
-		comments: 7,
+		comments: [
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 24,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sheryl Sandberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SherylSandberg',
+					uid: 30,
+				},
+			},
+			{
+				text: "Network well, you'll find the right opportunity!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 88,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 61,
+				},
+			},
+			{
+				text: 'Your hard work will pay off soon!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 12,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 54,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 17,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 90,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Brian Chesky',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=BrianChesky',
+					uid: 40,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 86,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 45,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 48,
+				},
+			},
+			{
+				text: 'Great attitude, keep up the momentum!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 22,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Michael Seibel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MichaelSeibel',
+					uid: 69,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Padmasree Warrior',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=PadmasreeWarrior',
+					uid: 26,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 73,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 53,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 59,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 37,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 72,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 33,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 99,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 25,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 96,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 64,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 11,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 83,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 18,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 56,
+				},
+			},
+			{
+				text: 'Great attitude, keep up the momentum!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sheryl Sandberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SherylSandberg',
+					uid: 89,
+				},
+			},
+			{
+				text: "Good things are coming, don't give up!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sergey Brin',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SergeyBrin',
+					uid: 39,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Leah Busque',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=LeahBusque',
+					uid: 97,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 46,
+				},
+			},
+		],
 		reposts: 6,
 	},
 	{
@@ -276,7 +5563,605 @@ A demo of LinkedIn Clone with the main functionality built with React Js, Redux 
 			"Learning Node.js has completely changed how I build web applications. It's amazing how easily you can handle async operations with Promises and async/await.",
 		optionPostImage: 'images/node.webp',
 		likes: 110,
-		comments: 9,
+		comments: [
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 90,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sheryl Sandberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SherylSandberg',
+					uid: 57,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 73,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ginni Rometty',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=GinniRometty',
+					uid: 50,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 99,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Safra Catz',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SafraCatz',
+					uid: 74,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 96,
+				},
+			},
+			{
+				text: "Network well, you'll find the right opportunity!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 16,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 61,
+				},
+			},
+			{
+				text: 'Keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 93,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 62,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Rachel Holt',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RachelHolt',
+					uid: 68,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Leah Busque',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=LeahBusque',
+					uid: 97,
+				},
+			},
+			{
+				text: 'Great work so far, keep it up!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 23,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Brian Chesky',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=BrianChesky',
+					uid: 40,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Tim Cook',
+					photoURL: 'https://avatar.iran.liara.run/public/boy?username=TimCook',
+					uid: 29,
+				},
+			},
+			{
+				text: 'Your hard work will pay off soon!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 75,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 78,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 83,
+				},
+			},
+			{
+				text: 'Opportunities are closer than you think!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Elon Musk',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ElonMusk',
+					uid: 85,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Angela Ahrendts',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AngelaAhrendts',
+					uid: 10,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 45,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 56,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Elon Musk',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ElonMusk',
+					uid: 21,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 81,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Leah Busque',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=LeahBusque',
+					uid: 2,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 55,
+				},
+			},
+			{
+				text: 'Your hard work will pay off soon!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 100,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 17,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 48,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jack Dorsey',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JackDorsey',
+					uid: 5,
+				},
+			},
+			{
+				text: 'Great attitude, keep up the momentum!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 22,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 4,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 32,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 20,
+				},
+			},
+			{
+				text: 'This is just the beginning, great things ahead!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 49,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 6,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 72,
+				},
+			},
+			{
+				text: 'Great work so far, keep it up!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 92,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 9,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 59,
+				},
+			},
+			{
+				text: 'Wishing you all the best!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 3,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 1,
+				},
+			},
+			{
+				text: 'Opportunities are closer than you think!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 58,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ginni Rometty',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=GinniRometty',
+					uid: 71,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 95,
+				},
+			},
+		],
 		reposts: 5,
 	},
 	{
@@ -287,7 +6172,553 @@ A demo of LinkedIn Clone with the main functionality built with React Js, Redux 
 			"Today I tried TypeScript in one of my projects, and I'm blown away by the type safety it provides. Any tips on integrating it smoothly into large-scale React apps?",
 		optionPostImage: '/images/typescript.png',
 		likes: 180,
-		comments: 14,
+		comments: [
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Shantanu Narayen',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ShantanuNarayen',
+					uid: 60,
+				},
+			},
+			{
+				text: 'Keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 98,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Brian Chesky',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=BrianChesky',
+					uid: 51,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 46,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Diane Greene',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=DianeGreene',
+					uid: 79,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 53,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ginni Rometty',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=GinniRometty',
+					uid: 71,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 83,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 25,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 82,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 1,
+				},
+			},
+			{
+				text: "Network well, you'll find the right opportunity!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 16,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ruth Porat',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RuthPorat',
+					uid: 13,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Larry Page',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=LarryPage',
+					uid: 67,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jack Dorsey',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JackDorsey',
+					uid: 5,
+				},
+			},
+			{
+				text: 'Great attitude, keep up the momentum!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sheryl Sandberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SherylSandberg',
+					uid: 89,
+				},
+			},
+			{
+				text: 'Opportunities are closer than you think!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Evan Spiegel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=EvanSpiegel',
+					uid: 63,
+				},
+			},
+			{
+				text: "Good things are coming, don't give up!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 42,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 95,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 72,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 9,
+				},
+			},
+			{
+				text: 'This is just the beginning, great things ahead!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 49,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 6,
+				},
+			},
+			{
+				text: 'Opportunities are closer than you think!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Elon Musk',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ElonMusk',
+					uid: 85,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Kevin Systrom',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=KevinSystrom',
+					uid: 14,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 17,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Leah Busque',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=LeahBusque',
+					uid: 2,
+				},
+			},
+			{
+				text: 'Keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 87,
+				},
+			},
+			{
+				text: "Believe in yourself, you're doing amazing!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Rachel Holt',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RachelHolt',
+					uid: 28,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 86,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 24,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Tim Cook',
+					photoURL: 'https://avatar.iran.liara.run/public/boy?username=TimCook',
+					uid: 29,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 62,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 47,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 8,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Diane Greene',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=DianeGreene',
+					uid: 65,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 66,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 4,
+				},
+			},
+			{
+				text: 'Your hard work will pay off soon!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 75,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 33,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 7,
+				},
+			},
+			{
+				text: "Good things are coming, don't give up!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sergey Brin',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SergeyBrin',
+					uid: 39,
+				},
+			},
+		],
 		reposts: 12,
 	},
 	{
@@ -298,7 +6729,449 @@ A demo of LinkedIn Clone with the main functionality built with React Js, Redux 
 			'Just launched a new project using Next.js with static site generation (SSG) and Firebase backend! Check it out here: https://my-nextjs-project.com',
 		optionPostImage: '/images/next.png',
 		likes: 130,
-		comments: 10,
+		comments: [
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Leah Busque',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=LeahBusque',
+					uid: 2,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Shantanu Narayen',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ShantanuNarayen',
+					uid: 84,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Tim Cook',
+					photoURL: 'https://avatar.iran.liara.run/public/boy?username=TimCook',
+					uid: 29,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 53,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Shantanu Narayen',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ShantanuNarayen',
+					uid: 60,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Kevin Systrom',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=KevinSystrom',
+					uid: 14,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 78,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 11,
+				},
+			},
+			{
+				text: 'Stay strong, success is within reach!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 36,
+				},
+			},
+			{
+				text: 'Great work so far, keep it up!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 23,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 31,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Meg Whitman',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MegWhitman',
+					uid: 38,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 62,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 34,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Michael Seibel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MichaelSeibel',
+					uid: 69,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Safra Catz',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SafraCatz',
+					uid: 74,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 15,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Elon Musk',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ElonMusk',
+					uid: 21,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Larry Page',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=LarryPage',
+					uid: 67,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 45,
+				},
+			},
+			{
+				text: 'This is just the beginning, great things ahead!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 44,
+				},
+			},
+			{
+				text: 'Keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 98,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 18,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 72,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Brian Chesky',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=BrianChesky',
+					uid: 51,
+				},
+			},
+			{
+				text: 'Opportunities are closer than you think!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 58,
+				},
+			},
+			{
+				text: "Good things are coming, don't give up!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sergey Brin',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SergeyBrin',
+					uid: 39,
+				},
+			},
+			{
+				text: 'Your hard work will pay off soon!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 75,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 52,
+				},
+			},
+			{
+				text: "Network well, you'll find the right opportunity!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 88,
+				},
+			},
+			{
+				text: 'Great work so far, keep it up!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 92,
+				},
+			},
+			{
+				text: 'Stay focused, big things are ahead!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Elon Musk',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ElonMusk',
+					uid: 43,
+				},
+			},
+			{
+				text: 'Keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Larry Page',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=LarryPage',
+					uid: 41,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Leah Busque',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=LeahBusque',
+					uid: 97,
+				},
+			},
+		],
 		reposts: 7,
 	},
 	{
@@ -309,10 +7182,556 @@ A demo of LinkedIn Clone with the main functionality built with React Js, Redux 
 			'JavaScript async/await saved me so much time today! Anyone else loves the simplicity it brings over callbacks?',
 		optionPostImage: 'images/javascript.webp',
 		likes: 140,
-		comments: 12,
+		comments: [
+			{
+				text: 'Stay strong, success is within reach!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 36,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 47,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ginni Rometty',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=GinniRometty',
+					uid: 71,
+				},
+			},
+			{
+				text: 'Great work so far, keep it up!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 23,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 46,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 53,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Angela Ahrendts',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AngelaAhrendts',
+					uid: 10,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 11,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 64,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jack Dorsey',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JackDorsey',
+					uid: 5,
+				},
+			},
+			{
+				text: "Believe in yourself, you're doing amazing!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 77,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 90,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 45,
+				},
+			},
+			{
+				text: 'Opportunities are closer than you think!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Evan Spiegel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=EvanSpiegel',
+					uid: 63,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ruth Porat',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RuthPorat',
+					uid: 13,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 61,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Padmasree Warrior',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=PadmasreeWarrior',
+					uid: 26,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 78,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Michael Seibel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MichaelSeibel',
+					uid: 80,
+				},
+			},
+			{
+				text: 'Keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 87,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 54,
+				},
+			},
+			{
+				text: 'Great work so far, keep it up!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 92,
+				},
+			},
+			{
+				text: 'Your hard work will pay off soon!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 100,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 34,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 95,
+				},
+			},
+			{
+				text: 'Your hard work will pay off soon!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 12,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 19,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 62,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Shantanu Narayen',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ShantanuNarayen',
+					uid: 84,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 33,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Leah Busque',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=LeahBusque',
+					uid: 97,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 15,
+				},
+			},
+			{
+				text: 'Keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 98,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 56,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 59,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 8,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Larry Page',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=LarryPage',
+					uid: 67,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ruth Porat',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RuthPorat',
+					uid: 76,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Brian Chesky',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=BrianChesky',
+					uid: 51,
+				},
+			},
+			{
+				text: 'Keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 93,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ginni Rometty',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=GinniRometty',
+					uid: 50,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 25,
+				},
+			},
+		],
 		reposts: 9,
 	},
-
 	{
 		name: 'Software Engineer | Saddam Arbaa',
 		optionHeadline:
@@ -322,10 +7741,556 @@ A demo of LinkedIn Clone with the main functionality built with React Js, Redux 
 			"If you're learning JavaScript, I highly recommend diving deep into Promises and async/await. Understanding asynchronous programming is essential for any JS dev!",
 		optionPostImage: '/images/javascript.webp',
 		likes: 175,
-		comments: 15,
+		comments: [
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 17,
+				},
+			},
+			{
+				text: 'Your hard work will pay off soon!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 75,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 34,
+				},
+			},
+			{
+				text: 'This is just the beginning, great things ahead!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 44,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 55,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 45,
+				},
+			},
+			{
+				text: 'Keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 87,
+				},
+			},
+			{
+				text: "Network well, you'll find the right opportunity!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 16,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 24,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Kevin Systrom',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=KevinSystrom',
+					uid: 14,
+				},
+			},
+			{
+				text: 'Stay strong, success is within reach!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 36,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 11,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 1,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 96,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 82,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 61,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 6,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 37,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 15,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Safra Catz',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SafraCatz',
+					uid: 74,
+				},
+			},
+			{
+				text: 'Keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 93,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 90,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 47,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jack Dorsey',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JackDorsey',
+					uid: 5,
+				},
+			},
+			{
+				text: 'Great work so far, keep it up!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 92,
+				},
+			},
+			{
+				text: 'Stay focused, big things are ahead!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Elon Musk',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ElonMusk',
+					uid: 43,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 59,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 4,
+				},
+			},
+			{
+				text: 'Opportunities are closer than you think!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Evan Spiegel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=EvanSpiegel',
+					uid: 63,
+				},
+			},
+			{
+				text: 'Wishing you all the best!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 3,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Larry Page',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=LarryPage',
+					uid: 67,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 78,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 99,
+				},
+			},
+			{
+				text: "Keep pushing forward, you're almost there!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 70,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Leah Busque',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=LeahBusque',
+					uid: 2,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ruth Porat',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RuthPorat',
+					uid: 13,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 73,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Michael Seibel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MichaelSeibel',
+					uid: 80,
+				},
+			},
+			{
+				text: 'Opportunities are closer than you think!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 58,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ginni Rometty',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=GinniRometty',
+					uid: 71,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Meg Whitman',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MegWhitman',
+					uid: 38,
+				},
+			},
+			{
+				text: 'Great work so far, keep it up!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 23,
+				},
+			},
+		],
 		reposts: 12,
 	},
-
 	{
 		name: 'Full-Stack Developer | Alex Thompson',
 		optionHeadline: 'React | TypeScript | Node.js | Express',
@@ -334,7 +8299,657 @@ A demo of LinkedIn Clone with the main functionality built with React Js, Redux 
 			'I’ve been diving into TypeScript with React lately. Types are such a huge help for managing large projects. Anyone else using it in production?',
 		optionPostImage: '/images/typescript.png',
 		likes: 180,
-		comments: 13,
+		comments: [
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Elon Musk',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ElonMusk',
+					uid: 21,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 18,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Brian Chesky',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=BrianChesky',
+					uid: 40,
+				},
+			},
+			{
+				text: 'Great work so far, keep it up!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 23,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 91,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Leah Busque',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=LeahBusque',
+					uid: 97,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 64,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 95,
+				},
+			},
+			{
+				text: "Believe in yourself, you're doing amazing!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 77,
+				},
+			},
+			{
+				text: 'Great attitude, keep up the momentum!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sheryl Sandberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SherylSandberg',
+					uid: 89,
+				},
+			},
+			{
+				text: 'Stay strong, success is within reach!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 36,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 72,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 83,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 48,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 35,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 47,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 8,
+				},
+			},
+			{
+				text: "Network well, you'll find the right opportunity!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 88,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 19,
+				},
+			},
+			{
+				text: 'This is just the beginning, great things ahead!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 49,
+				},
+			},
+			{
+				text: 'Keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 98,
+				},
+			},
+			{
+				text: 'Opportunities are closer than you think!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Elon Musk',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ElonMusk',
+					uid: 85,
+				},
+			},
+			{
+				text: "Good things are coming, don't give up!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sergey Brin',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SergeyBrin',
+					uid: 39,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 61,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Michael Seibel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MichaelSeibel',
+					uid: 80,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 81,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Meg Whitman',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MegWhitman',
+					uid: 38,
+				},
+			},
+			{
+				text: "Good things are coming, don't give up!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 42,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Brian Chesky',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=BrianChesky',
+					uid: 51,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 96,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 66,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ginni Rometty',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=GinniRometty',
+					uid: 50,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Leah Busque',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=LeahBusque',
+					uid: 2,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 59,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 25,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 17,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Tim Cook',
+					photoURL: 'https://avatar.iran.liara.run/public/boy?username=TimCook',
+					uid: 29,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 90,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 86,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 45,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 54,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Diane Greene',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=DianeGreene',
+					uid: 79,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 15,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Padmasree Warrior',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=PadmasreeWarrior',
+					uid: 26,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 9,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 4,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Diane Greene',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=DianeGreene',
+					uid: 65,
+				},
+			},
+			{
+				text: 'Opportunities are closer than you think!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Evan Spiegel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=EvanSpiegel',
+					uid: 63,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 99,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Rachel Holt',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RachelHolt',
+					uid: 68,
+				},
+			},
+		],
 		reposts: 10,
 	},
 	{
@@ -345,10 +8960,633 @@ A demo of LinkedIn Clone with the main functionality built with React Js, Redux 
 			'Started learning Python for backend development. It’s incredibly simple but powerful. Any suggestions on how to integrate Python with React?',
 		optionPostImage: '/images/python.jpeg',
 		likes: 150,
-		comments: 12,
+		comments: [
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 33,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 62,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Larry Page',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=LarryPage',
+					uid: 67,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Safra Catz',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SafraCatz',
+					uid: 74,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jack Dorsey',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JackDorsey',
+					uid: 5,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 6,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Elon Musk',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ElonMusk',
+					uid: 21,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ruth Porat',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RuthPorat',
+					uid: 13,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 53,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 37,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 83,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 82,
+				},
+			},
+			{
+				text: "Keep pushing forward, you're almost there!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 70,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 46,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 56,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Angela Ahrendts',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AngelaAhrendts',
+					uid: 10,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Shantanu Narayen',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ShantanuNarayen',
+					uid: 84,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Diane Greene',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=DianeGreene',
+					uid: 65,
+				},
+			},
+			{
+				text: 'Stay focused, big things are ahead!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Elon Musk',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ElonMusk',
+					uid: 43,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 90,
+				},
+			},
+			{
+				text: 'Great attitude, keep up the momentum!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sheryl Sandberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SherylSandberg',
+					uid: 89,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 55,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Kevin Systrom',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=KevinSystrom',
+					uid: 14,
+				},
+			},
+			{
+				text: 'This is just the beginning, great things ahead!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 44,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 35,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 47,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 7,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Shantanu Narayen',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ShantanuNarayen',
+					uid: 60,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 52,
+				},
+			},
+			{
+				text: 'Keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 93,
+				},
+			},
+			{
+				text: 'Great work so far, keep it up!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 92,
+				},
+			},
+			{
+				text: 'Stay strong, success is within reach!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 36,
+				},
+			},
+			{
+				text: 'Keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 87,
+				},
+			},
+			{
+				text: "Network well, you'll find the right opportunity!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 88,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 96,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 18,
+				},
+			},
+			{
+				text: 'Wishing you all the best!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 94,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 19,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Rachel Holt',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RachelHolt',
+					uid: 68,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Tim Cook',
+					photoURL: 'https://avatar.iran.liara.run/public/boy?username=TimCook',
+					uid: 29,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sheryl Sandberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SherylSandberg',
+					uid: 57,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 8,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 20,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Michael Seibel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MichaelSeibel',
+					uid: 69,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 78,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 15,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 11,
+				},
+			},
+			{
+				text: "Believe in yourself, you're doing amazing!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Rachel Holt',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RachelHolt',
+					uid: 28,
+				},
+			},
+		],
 		reposts: 9,
 	},
-
 	{
 		name: 'Software Developer | James Scott',
 		optionHeadline: 'JavaScript | Node.js | TypeScript | MongoDB',
@@ -357,7 +9595,528 @@ A demo of LinkedIn Clone with the main functionality built with React Js, Redux 
 			'Incorporating TypeScript into my Node.js backend has made debugging and development so much smoother. Highly recommend it!',
 		optionPostImage: '/images/typescript.png',
 		likes: 180,
-		comments: 15,
+		comments: [
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 46,
+				},
+			},
+			{
+				text: "Believe in yourself, you're doing amazing!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 77,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 4,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 33,
+				},
+			},
+			{
+				text: 'Great work so far, keep it up!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 23,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Kevin Systrom',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=KevinSystrom',
+					uid: 14,
+				},
+			},
+			{
+				text: "Believe in yourself, you're doing amazing!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Rachel Holt',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RachelHolt',
+					uid: 28,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 96,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 62,
+				},
+			},
+			{
+				text: 'Opportunities are closer than you think!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Evan Spiegel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=EvanSpiegel',
+					uid: 63,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ginni Rometty',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=GinniRometty',
+					uid: 71,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Safra Catz',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SafraCatz',
+					uid: 74,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 78,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 11,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Shantanu Narayen',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ShantanuNarayen',
+					uid: 60,
+				},
+			},
+			{
+				text: 'Keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Larry Page',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=LarryPage',
+					uid: 41,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 55,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ruth Porat',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RuthPorat',
+					uid: 76,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 20,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 24,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ruth Porat',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RuthPorat',
+					uid: 13,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sheryl Sandberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SherylSandberg',
+					uid: 30,
+				},
+			},
+			{
+				text: 'Stay strong, success is within reach!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 36,
+				},
+			},
+			{
+				text: "Good things are coming, don't give up!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 42,
+				},
+			},
+			{
+				text: "Network well, you'll find the right opportunity!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 16,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 59,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 37,
+				},
+			},
+			{
+				text: "Good things are coming, don't give up!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sergey Brin',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SergeyBrin',
+					uid: 39,
+				},
+			},
+			{
+				text: 'Keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 93,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Padmasree Warrior',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=PadmasreeWarrior',
+					uid: 26,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Leah Busque',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=LeahBusque',
+					uid: 2,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Angela Ahrendts',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AngelaAhrendts',
+					uid: 10,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 25,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 45,
+				},
+			},
+			{
+				text: 'Great attitude, keep up the momentum!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sheryl Sandberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SherylSandberg',
+					uid: 89,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 81,
+				},
+			},
+			{
+				text: 'Great attitude, keep up the momentum!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 22,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 90,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 18,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 17,
+				},
+			},
+		],
 		reposts: 11,
 	},
 	{
@@ -368,7 +10127,384 @@ A demo of LinkedIn Clone with the main functionality built with React Js, Redux 
 			'Exploring CSS Grid for responsive design. It’s such a powerful tool for building complex layouts. Anyone else using it in production?',
 		optionPostImage: '/images/css.png',
 		likes: 190,
-		comments: 16,
+		comments: [
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 53,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 6,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Shantanu Narayen',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ShantanuNarayen',
+					uid: 84,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Michael Seibel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MichaelSeibel',
+					uid: 80,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jack Dorsey',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JackDorsey',
+					uid: 5,
+				},
+			},
+			{
+				text: 'Your hard work will pay off soon!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 100,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 9,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Leah Busque',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=LeahBusque',
+					uid: 2,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 96,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Michael Seibel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MichaelSeibel',
+					uid: 69,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 46,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sheryl Sandberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SherylSandberg',
+					uid: 57,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 91,
+				},
+			},
+			{
+				text: "Believe in yourself, you're doing amazing!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 77,
+				},
+			},
+			{
+				text: 'Wishing you all the best!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 3,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Shantanu Narayen',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ShantanuNarayen',
+					uid: 60,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 99,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Safra Catz',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SafraCatz',
+					uid: 74,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 73,
+				},
+			},
+			{
+				text: 'Great attitude, keep up the momentum!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sheryl Sandberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SherylSandberg',
+					uid: 89,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 8,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Elon Musk',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ElonMusk',
+					uid: 21,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Diane Greene',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=DianeGreene',
+					uid: 65,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 17,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Max Levchin',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MaxLevchin',
+					uid: 27,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Tim Cook',
+					photoURL: 'https://avatar.iran.liara.run/public/boy?username=TimCook',
+					uid: 29,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 47,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 11,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 81,
+				},
+			},
+		],
 		reposts: 13,
 	},
 	{
@@ -379,7 +10515,502 @@ A demo of LinkedIn Clone with the main functionality built with React Js, Redux 
 			"I’m diving into AWS Lambda and serverless architecture for my Node.js apps. It's been a fun journey so far. Anyone else working on serverless projects?",
 		optionPostImage: '/images/swas.jpg',
 		likes: 160,
-		comments: 14,
+		comments: [
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ruth Porat',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RuthPorat',
+					uid: 76,
+				},
+			},
+			{
+				text: 'Stay strong, success is within reach!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 36,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 15,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Angela Ahrendts',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AngelaAhrendts',
+					uid: 10,
+				},
+			},
+			{
+				text: 'Great attitude, keep up the momentum!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 22,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 20,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 66,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 46,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Michael Seibel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MichaelSeibel',
+					uid: 69,
+				},
+			},
+			{
+				text: 'Opportunities are closer than you think!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Elon Musk',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ElonMusk',
+					uid: 85,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 96,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 61,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Meg Whitman',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MegWhitman',
+					uid: 38,
+				},
+			},
+			{
+				text: "Network well, you'll find the right opportunity!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Emily Weiss',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=EmilyWeiss',
+					uid: 16,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 31,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 59,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sheryl Sandberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SherylSandberg',
+					uid: 30,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 82,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ruth Porat',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RuthPorat',
+					uid: 13,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Leah Busque',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=LeahBusque',
+					uid: 2,
+				},
+			},
+			{
+				text: "Good things are coming, don't give up!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sergey Brin',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SergeyBrin',
+					uid: 39,
+				},
+			},
+			{
+				text: "Network well, you'll find the right opportunity!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 88,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 78,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Safra Catz',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SafraCatz',
+					uid: 74,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ginni Rometty',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=GinniRometty',
+					uid: 71,
+				},
+			},
+			{
+				text: 'Your hard work will pay off soon!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 12,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Kevin Systrom',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=KevinSystrom',
+					uid: 14,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 4,
+				},
+			},
+			{
+				text: 'Opportunities are closer than you think!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 58,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 19,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 7,
+				},
+			},
+			{
+				text: 'Your journey is inspiring, keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 1,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 47,
+				},
+			},
+			{
+				text: 'Great work so far, keep it up!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 23,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 54,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 9,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Rachel Holt',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RachelHolt',
+					uid: 68,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 90,
+				},
+			},
+		],
 		reposts: 9,
 	},
 	{
@@ -390,7 +11021,527 @@ A demo of LinkedIn Clone with the main functionality built with React Js, Redux 
 			'I just built my first custom React hook to handle form inputs and validation. It made the code much cleaner! Anyone else building custom hooks?',
 		optionPostImage: '/images/react.webp',
 		likes: 170,
-		comments: 13,
+		comments: [
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 35,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ginni Rometty',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=GinniRometty',
+					uid: 71,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ruth Porat',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RuthPorat',
+					uid: 76,
+				},
+			},
+			{
+				text: 'Great work so far, keep it up!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 23,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Rachel Holt',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RachelHolt',
+					uid: 68,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Angela Ahrendts',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AngelaAhrendts',
+					uid: 10,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 15,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Larry Page',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=LarryPage',
+					uid: 67,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Michael Seibel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MichaelSeibel',
+					uid: 80,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ruth Porat',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RuthPorat',
+					uid: 13,
+				},
+			},
+			{
+				text: 'Stay strong, success is within reach!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 36,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Brian Chesky',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=BrianChesky',
+					uid: 40,
+				},
+			},
+			{
+				text: 'This is just the beginning, great things ahead!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 49,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Diane Greene',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=DianeGreene',
+					uid: 65,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 33,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 66,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 96,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 78,
+				},
+			},
+			{
+				text: 'This is just the beginning, great things ahead!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 44,
+				},
+			},
+			{
+				text: 'Keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 87,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sheryl Sandberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SherylSandberg',
+					uid: 30,
+				},
+			},
+			{
+				text: "Good things are coming, don't give up!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 42,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Michael Seibel',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MichaelSeibel',
+					uid: 69,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 20,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Brian Chesky',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=BrianChesky',
+					uid: 51,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 37,
+				},
+			},
+			{
+				text: 'Your hard work will pay off soon!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 12,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 17,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 61,
+				},
+			},
+			{
+				text: 'Amazing progress, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Indra Nooyi',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=IndraNooyi',
+					uid: 8,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Tim Cook',
+					photoURL: 'https://avatar.iran.liara.run/public/boy?username=TimCook',
+					uid: 29,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 86,
+				},
+			},
+			{
+				text: 'Great work so far, keep it up!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 92,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Padmasree Warrior',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=PadmasreeWarrior',
+					uid: 26,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 6,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 99,
+				},
+			},
+			{
+				text: 'Great attitude, keep up the momentum!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sheryl Sandberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SherylSandberg',
+					uid: 89,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 31,
+				},
+			},
+			{
+				text: 'Keep up the great work!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Larry Page',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=LarryPage',
+					uid: 41,
+				},
+			},
+			{
+				text: 'You’re going to do amazing things!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Andrew Wilson',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=AndrewWilson',
+					uid: 46,
+				},
+			},
+		],
 		reposts: 10,
 	},
 	{
@@ -401,7 +11552,449 @@ A demo of LinkedIn Clone with the main functionality built with React Js, Redux 
 			'I’m learning Python for data analysis and machine learning. Any advice for transitioning from full-stack development to data science?',
 		optionPostImage: '/images/python.jpeg',
 		likes: 190,
-		comments: 16,
+		comments: [
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Padmasree Warrior',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=PadmasreeWarrior',
+					uid: 26,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sheryl Sandberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SherylSandberg',
+					uid: 57,
+				},
+			},
+			{
+				text: 'Opportunities are closer than you think!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 58,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Kevin Systrom',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=KevinSystrom',
+					uid: 14,
+				},
+			},
+			{
+				text: 'All the best in your journey!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ruth Porat',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RuthPorat',
+					uid: 13,
+				},
+			},
+			{
+				text: 'Your hard work will pay off!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Rachel Holt',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RachelHolt',
+					uid: 68,
+				},
+			},
+			{
+				text: "Believe in yourself, you're doing amazing!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Daniel Ek',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=DanielEk',
+					uid: 77,
+				},
+			},
+			{
+				text: 'Impressive dedication! Keep going!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 37,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ginni Rometty',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=GinniRometty',
+					uid: 50,
+				},
+			},
+			{
+				text: 'Wishing you all the best!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 94,
+				},
+			},
+			{
+				text: 'Keep reaching for the stars!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Reed Hastings',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ReedHastings',
+					uid: 86,
+				},
+			},
+			{
+				text: 'This is just the beginning, great things ahead!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanWojcicki',
+					uid: 44,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marissa Mayer',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=MarissaMayer',
+					uid: 7,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Parag Agrawal',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ParagAgrawal',
+					uid: 20,
+				},
+			},
+			{
+				text: "You're capable of achieving great things!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 82,
+				},
+			},
+			{
+				text: 'Great work so far, keep it up!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Anne Wojcicki',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=AnneWojcicki',
+					uid: 92,
+				},
+			},
+			{
+				text: 'Great work so far, keep it up!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 23,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Larry Page',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=LarryPage',
+					uid: 67,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Mark Zuckerberg',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarkZuckerberg',
+					uid: 4,
+				},
+			},
+			{
+				text: "Wishing you the best, you're going to crush it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Marc Benioff',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=MarcBenioff',
+					uid: 55,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 31,
+				},
+			},
+			{
+				text: 'Don’t give up, keep pushing!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Ruth Porat',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=RuthPorat',
+					uid: 76,
+				},
+			},
+			{
+				text: 'You got this! 🚀',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Tim Cook',
+					photoURL: 'https://avatar.iran.liara.run/public/boy?username=TimCook',
+					uid: 29,
+				},
+			},
+			{
+				text: 'Stay positive, opportunities are on the way!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Sundar Pichai',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=SundarPichai',
+					uid: 91,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Leah Busque',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=LeahBusque',
+					uid: 2,
+				},
+			},
+			{
+				text: "You're making great strides, keep at it!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Susan Li',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=SusanLi',
+					uid: 15,
+				},
+			},
+			{
+				text: 'Wishing you all the best!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 3,
+				},
+			},
+			{
+				text: "Network well, you'll find the right opportunity!",
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Jeff Bezos',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=JeffBezos',
+					uid: 88,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Shantanu Narayen',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=ShantanuNarayen',
+					uid: 60,
+				},
+			},
+			{
+				text: 'Remember, persistence is key! 💪',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Whitney Wolfe Herd',
+					photoURL:
+						'https://avatar.iran.liara.run/public/girl?username=WhitneyWolfe',
+					uid: 95,
+				},
+			},
+			{
+				text: 'Good luck with your job search!',
+				timestamp: {
+					seconds: 1737782606,
+					nanoseconds: 0,
+				},
+				user: {
+					displayName: 'Stewart Butterfield',
+					photoURL:
+						'https://avatar.iran.liara.run/public/boy?username=StewartButterfield',
+					uid: 99,
+				},
+			},
+		],
 		reposts: 12,
 	},
 ]
+
+const randomNames = [
+	'John Smith',
+	'Anna White',
+	'James Johnson',
+	'Emily Davis',
+	'Michael Brown',
+	'Sarah Wilson',
+	'David Lee',
+	'Sophia Clark',
+	'Daniel Miller',
+	'Olivia Walker',
+]
+
+export const mockedNotifications = Array.from({ length: 50 }, (_, index) => {
+	const randomName = randomNames[Math.floor(Math.random() * randomNames.length)]
+	const iconOptions: ['like', 'comment', 'connect', 'share', 'endorse'] = [
+		'like',
+		'comment',
+		'connect',
+		'share',
+		'endorse',
+	]
+	const icon = iconOptions[index % iconOptions.length]
+
+	return {
+		id: index + 1,
+		title:
+			index % 5 === 0
+				? `New connection request from ${randomName}`
+				: index % 3 === 0
+				? `${randomName} liked your post about JavaScript`
+				: index % 4 === 0
+				? `${randomName} commented on your post`
+				: `${randomName} shared your job posting`,
+		time: `${Math.floor(Math.random() * 60)} minutes ago`,
+		icon: icon,
+	}
+})

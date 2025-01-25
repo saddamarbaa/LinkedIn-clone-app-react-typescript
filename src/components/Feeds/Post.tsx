@@ -189,7 +189,9 @@ const Post = React.forwardRef<HTMLDivElement, Props>((props, ref) => {
 							<p className="text-xs flex text-gray-500">
 								<span>
 									{post?.timestamp
-										? moment(post.timestamp.toDate()).fromNow()
+										// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+										? // @ts-expect-error
+										  moment(post.timestamp.toDate()).fromNow()
 										: moment(
 												moment().subtract(
 													Math.floor(Math.random() * 20) + 1,

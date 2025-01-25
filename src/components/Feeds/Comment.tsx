@@ -8,10 +8,6 @@ type Props = {
 }
 
 export default function Comment({ comment, hideBorder }: Props) {
-	{
-		console.log(comment.user)
-	}
-
 	return (
 		<div
 			key={comment.timestamp?.nanoseconds}

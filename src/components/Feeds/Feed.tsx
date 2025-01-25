@@ -16,7 +16,7 @@ import { db } from '../../config'
 import { mockPosts } from '../../lib/mockData'
 
 export default function Feed() {
-	const [loading, setLoading] = useState(true)
+	const [_loading, setLoading] = useState(true)
 	const [posts, setPosts] = useState<PostResponseType[] | []>([])
 
 	useEffect(() => {
@@ -49,12 +49,25 @@ export default function Feed() {
 
 			<FlipMove>
 				{posts.map((post, index) => (
-					<Post key={post.id} post={post} index={index} isAllowAction />
+					<Post
+						key={post.id || `${Math.random()}-${index}`}
+						post={post}
+						index={index}
+						isAllowAction
+					/>
 				))}
 			</FlipMove>
+
 			{/* Mocked posts */}
 			{mockPosts.map((post, index) => (
-				<Post key={post.id} post={post} index={index} isAllowAction={false} />
+				<Post
+					key={post.id || `${Math.random()}-${index}`}
+					// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+					// @ts-ignore
+					post={post}
+					index={index}
+					isAllowAction={false}
+				/>
 			))}
 		</div>
 	)
