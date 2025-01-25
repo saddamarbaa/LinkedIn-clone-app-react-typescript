@@ -5,7 +5,7 @@ import { mockedNotifications } from '../lib/mockData'
 export default function NotificationsScreen() {
 	return (
 		<Layout>
-			<div className="w-full max-w-3xl space-y-5">
+			<div className="w-full  space-y-5">
 				{mockedNotifications.map((notification) => (
 					<NotificationItem key={notification.id} notification={notification} />
 				))}

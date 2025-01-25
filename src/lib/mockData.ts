@@ -1,4 +1,5 @@
 import { ChatT } from '../types/Chat'
+import { Job } from '../types/job'
 
 export const mockChats: ChatT[] = [
 	{
@@ -11998,3 +11999,306 @@ export const mockedNotifications = Array.from({ length: 50 }, (_, index) => {
 		icon: icon,
 	}
 })
+
+export const mockedJobs: Job[] = [
+	{
+		id: 1,
+		title: 'Software Engineer',
+		company: 'Google',
+		location: 'Remote',
+		description:
+			"Join Google's team to develop innovative products and work on cutting-edge technologies.",
+		postedTime: '5 days ago',
+		status: 'open',
+	},
+	{
+		id: 19,
+		title: 'Cloud Solutions Engineer',
+		company: 'Microsoft Azure',
+		location: 'Redmond, WA',
+		description:
+			'Join Microsoft Azure to develop and manage scalable cloud solutions for enterprise clients.',
+		postedTime: '14 days ago',
+		status: 'closed',
+	},
+	{
+		id: 20,
+		title: 'Full Stack Engineer',
+		company: 'GitHub',
+		location: 'San Francisco, CA',
+		description:
+			"Help build and scale GitHub's tools, making development and collaboration easier for developers worldwide.",
+		postedTime: '8 days ago',
+		status: 'pending',
+	},
+	{
+		id: 2,
+		title: 'Senior Software Engineer',
+		company: 'Amazon',
+		location: 'Seattle, WA',
+		description:
+			'Work on large-scale systems at Amazon, building features that scale across millions of users.',
+		postedTime: '8 days ago',
+		status: 'open',
+	},
+	{
+		id: 3,
+		title: 'Software Engineer II',
+		company: 'Microsoft',
+		location: 'Redmond, WA',
+		description:
+			'Develop software solutions that impact millions of users globally at Microsoft.',
+		postedTime: '12 days ago',
+		status: 'open',
+	},
+	{
+		id: 4,
+		title: 'Backend Developer',
+		company: 'Facebook',
+		location: 'Menlo Park, CA',
+		description:
+			"Build the backend services that power Facebook's features and handle millions of requests.",
+		postedTime: '7 days ago',
+		status: 'open',
+	},
+	{
+		id: 5,
+		title: 'Full Stack Developer',
+		company: 'Apple',
+		location: 'Cupertino, CA',
+		description:
+			'Work on both the front-end and back-end at Apple, developing software for world-class products.',
+		postedTime: '2 weeks ago',
+		status: 'pending',
+	},
+	{
+		id: 6,
+		title: 'Software Engineer',
+		company: 'Netflix',
+		location: 'Los Gatos, CA',
+		description:
+			"Join Netflix's tech team to develop and improve software for its global streaming platform.",
+		postedTime: '4 days ago',
+		status: 'open',
+	},
+	{
+		id: 7,
+		title: 'Cloud Engineer',
+		company: 'Salesforce',
+		location: 'San Francisco, CA',
+		description:
+			'Develop cloud-based solutions that help businesses transform their operations at Salesforce.',
+		postedTime: '10 days ago',
+		status: 'closed',
+	},
+	{
+		id: 8,
+		title: 'DevOps Engineer',
+		company: 'Spotify',
+		location: 'Remote',
+		description:
+			"Build and maintain scalable, efficient DevOps pipelines to support Spotify's infrastructure.",
+		postedTime: '3 weeks ago',
+		status: 'open',
+	},
+	{
+		id: 9,
+		title: 'Front-End Developer',
+		company: 'Snapchat',
+		location: 'Los Angeles, CA',
+		description:
+			"Work on developing new features and user interfaces for Snapchat's mobile app.",
+		postedTime: '15 days ago',
+		status: 'pending',
+	},
+	{
+		id: 10,
+		title: 'Mobile Developer',
+		company: 'Uber',
+		location: 'San Francisco, CA',
+		description:
+			"Develop mobile applications for Uber's services, enhancing user experiences globally.",
+		postedTime: '6 days ago',
+		status: 'open',
+	},
+	{
+		id: 11,
+		title: 'Junior Software Engineer',
+		company: 'Twilio',
+		location: 'Remote',
+		description:
+			"Join Twilio's team to build next-generation communication tools for global businesses.",
+		postedTime: '1 week ago',
+		status: 'open',
+	},
+	{
+		id: 12,
+		title: 'Data Scientist',
+		company: 'LinkedIn',
+		location: 'Sunnyvale, CA',
+		description:
+			"Work with LinkedIn's data to help improve user experiences and business intelligence.",
+		postedTime: '5 days ago',
+		status: 'pending',
+	},
+	{
+		id: 13,
+		title: 'Senior Product Manager',
+		company: 'Slack',
+		location: 'San Francisco, CA',
+		description:
+			'Lead product development efforts at Slack, enhancing collaboration tools for businesses.',
+		postedTime: '12 days ago',
+		status: 'open',
+	},
+	{
+		id: 14,
+		title: 'UX Designer',
+		company: 'Dropbox',
+		location: 'Remote',
+		description:
+			'Design intuitive and user-friendly interfaces for Dropbox’s file-sharing platform.',
+		postedTime: '20 days ago',
+		status: 'closed',
+	},
+	{
+		id: 15,
+		title: 'Software Engineer',
+		company: 'Pinterest',
+		location: 'San Francisco, CA',
+		description:
+			"Work on Pinterest's core systems and help build the next generation of visual discovery tools.",
+		postedTime: '3 days ago',
+		status: 'open',
+	},
+	{
+		id: 16,
+		title: 'Machine Learning Engineer',
+		company: 'Stripe',
+		location: 'Remote',
+		description:
+			"Build AI-powered features for Stripe's platform, helping businesses optimize their operations.",
+		postedTime: '1 week ago',
+		status: 'pending',
+	},
+	{
+		id: 17,
+		title: 'Software Engineer',
+		company: 'Airbnb',
+		location: 'San Francisco, CA',
+		description:
+			'Develop backend services and APIs for Airbnb’s global platform.',
+		postedTime: '2 weeks ago',
+		status: 'open',
+	},
+	{
+		id: 18,
+		title: 'Web Developer',
+		company: 'Zillow',
+		location: 'Remote',
+		description:
+			'Build and maintain web applications to help users find their next home on Zillow.',
+		postedTime: '10 days ago',
+		status: 'open',
+	},
+	{
+		id: 21,
+		title: 'Software Engineer',
+		company: 'Google',
+		location: 'Remote',
+		description:
+			'Design and implement Google Cloud solutions, impacting millions of users.',
+		postedTime: '9 days ago',
+		status: 'open',
+	},
+	{
+		id: 22,
+		title: 'Data Analyst',
+		company: 'Amazon',
+		location: 'Seattle, WA',
+		description:
+			'Analyze large datasets to derive insights and improve customer experience at Amazon.',
+		postedTime: '5 days ago',
+		status: 'open',
+	},
+	{
+		id: 23,
+		title: 'Senior Software Engineer',
+		company: 'Facebook',
+		location: 'Menlo Park, CA',
+		description:
+			'Build and scale Facebook’s backend infrastructure to support billions of users.',
+		postedTime: '12 days ago',
+		status: 'closed',
+	},
+	{
+		id: 24,
+		title: 'System Architect',
+		company: 'Apple',
+		location: 'Cupertino, CA',
+		description:
+			"Join Apple's engineering team to design scalable and efficient system architectures.",
+		postedTime: '7 days ago',
+		status: 'open',
+	},
+	{
+		id: 25,
+		title: 'Software Developer',
+		company: 'Netflix',
+		location: 'Los Gatos, CA',
+		description:
+			'Contribute to Netflix’s streaming platform by building scalable and reliable features.',
+		postedTime: '15 days ago',
+		status: 'pending',
+	},
+	{
+		id: 26,
+		title: 'Back-End Engineer',
+		company: 'Spotify',
+		location: 'Remote',
+		description:
+			'Build the backend systems that support Spotify’s massive music catalog and user data.',
+		postedTime: '10 days ago',
+		status: 'open',
+	},
+	{
+		id: 27,
+		title: 'Security Engineer',
+		company: 'Google',
+		location: 'Mountain View, CA',
+		description:
+			'Help Google enhance its security infrastructure and protect user data.',
+		postedTime: '3 weeks ago',
+		status: 'closed',
+	},
+	{
+		id: 28,
+		title: 'Cloud Infrastructure Engineer',
+		company: 'Salesforce',
+		location: 'San Francisco, CA',
+		description:
+			"Design and manage cloud infrastructure solutions for Salesforce's enterprise customers.",
+		postedTime: '1 week ago',
+		status: 'open',
+	},
+	{
+		id: 29,
+		title: 'Product Designer',
+		company: 'Pinterest',
+		location: 'San Francisco, CA',
+		description:
+			'Design and improve user interfaces that drive Pinterest’s product experiences.',
+		postedTime: '2 weeks ago',
+		status: 'pending',
+	},
+	{
+		id: 30,
+		title: 'Software Development Engineer',
+		company: 'Amazon Web Services (AWS)',
+		location: 'Seattle, WA',
+		description:
+			'Develop scalable services to enable AWS customers with the best cloud solutions.',
+		postedTime: '4 days ago',
+		status: 'open',
+	},
+]

@@ -1,10 +1,17 @@
+import { JobItem } from '../components/Job'
 import Layout from '../layouts'
-import Feed from '../components/Feeds/Feed'
+import { mockedJobs } from '../lib/mockData'
 
-export default function JobsScreen() {
+const JobsScreen: React.FC = () => {
 	return (
 		<Layout>
-			<Feed />
+			<section className="w-full  space-y-5">
+				{mockedJobs.map((job) => (
+					<JobItem key={job.id} job={job} />
+				))}
+			</section>
 		</Layout>
 	)
 }
+
+export default JobsScreen
