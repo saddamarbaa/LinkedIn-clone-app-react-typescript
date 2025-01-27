@@ -10,6 +10,7 @@ import NotificationsScreen from './screens/NotificationsScreen'
 import MessagesScreen from './screens/MessagesScreen'
 import JobsScreen from './screens/JobsScreen'
 import MyNetworkScreen from './screens/MyNetworkScreen'
+import ProfileScreen from './screens/ProfileScreen'
 
 export default function RouteLayout() {
 	const location = useLocation()
@@ -23,6 +24,7 @@ export default function RouteLayout() {
 				<Route path="/jobs" element={<JobsScreen />} />
 				<Route path="/messages" element={<MessagesScreen />} />
 				<Route path="/notifications" element={<NotificationsScreen />} />
+				<Route path="/profile" element={<ProfileScreen />} />
 			</Route>
 
 			{/* Public Routes */}

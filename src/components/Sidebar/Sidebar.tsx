@@ -10,6 +10,7 @@ import { auth } from '../../config'
 import SidebarStar from './SidebarStar'
 import SidebarHashtag from './SidebarHashtage'
 import Activities from './Activities'
+import { Link } from 'react-router'
 
 export default function Sidebar() {
 	const [user] = useAuthState(auth)
@@ -19,40 +20,44 @@ export default function Sidebar() {
 			<div id="fixed-position" className="fixed max-w-[30rem] min-w-[20rem] ">
 				<>
 					<div className="w-[20rem] flex flex-col space-y-4 overflow-hidden">
-						{/* User Profile Section */}
-						<Card className="p-0 cursor-pointer">
-							<figure>
-								<img
-									className="w-full object-cover rounded cursor-pointer h-28"
-									src="/images/index.jpg"
+						<Link to="/profile">
+							{/* User Profile Section */}
+							<Card className="p-0 cursor-pointer">
+								<figure>
+									<img
+										className="w-full object-cover rounded cursor-pointer h-28"
+										src="/images/index.jpg"
+										alt="profile image"
+									/>
+								</figure>
+
+								<Avatar
+									className="h-20 w-20 -mt-8 ml-7"
+									url={user?.photoURL || '/images/linkedin-b.png'}
 									alt="profile image"
+									isOffLine={false}
 								/>
-							</figure>
 
-							<Avatar
-								className="h-20 w-20 -mt-8 ml-7"
-								url={user?.photoURL || '/images/linkedin-b.png'}
-								alt="profile image"
-								isOffLine={false}
-							/>
+								<div>
+									<div className="border-b dark:border-customBlack-600 p-4 py-3 flex flex-col space-y-1">
+										<h2 className="text-base font-bold ">
+											{user?.displayName}
+										</h2>
+										<h5 className="font-medium text-sm ">{user?.email}</h5>
 
-							<div>
-								<div className="border-b dark:border-customBlack-600 p-4 py-3 flex flex-col space-y-1">
-									<h2 className="text-base font-bold ">{user?.displayName}</h2>
-									<h5 className="font-medium text-sm ">{user?.email}</h5>
+										<p className="text-[13px]">A welcoming, friendly, and</p>
+										<p className="text-[13px]">
+											all-encompassing approach to enterprise software design!
+										</p>
+									</div>
 
-									<p className="text-[13px]">A welcoming, friendly, and</p>
-									<p className="text-[13px]">
-										all-encompassing approach to enterprise software design!
-									</p>
+									<div className="text-[12px] py-[5px]">
+										<SidebarStar text="Who viewed your profile" />
+										<SidebarStar text="Views of your post" />
+									</div>
 								</div>
-
-								<div className="text-[12px] py-[5px]">
-									<SidebarStar text="Who viewed your profile" />
-									<SidebarStar text="Views of your post" />
-								</div>
-							</div>
-						</Card>
+							</Card>
+						</Link>
 
 						{/* Skills Section */}
 						<Card className="text-[13px] flex flex-col p-0 py-1">

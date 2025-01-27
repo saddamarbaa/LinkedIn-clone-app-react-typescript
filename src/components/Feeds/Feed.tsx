@@ -44,7 +44,7 @@ export default function Feed() {
 	}, [])
 
 	return (
-		<div className="flex-1  shadow-lg max-w-3xl flex flex-col  mx-7 mb-52">
+		<div className="flex-1  shadow-lg  flex flex-col   mb-52 ">
 			<PostInput />
 
 			<FlipMove>
