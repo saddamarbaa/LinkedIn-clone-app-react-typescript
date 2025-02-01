@@ -45,7 +45,7 @@ Welcome to my **LinkedIn Clone** project! This dynamic, full-stack professional 
 
 ## 🚀 Live Demo
 
-You can check out the live demo of the LinkedIn Clone project at: [Live Demo](https://linkedin-clone-app-react-typescript.vercel.app/)
+You can check out the live demo of the LinkedIn Clone project at: [Live Demo](https://linked-in-clone-app-react-typescript.vercel.app/)
 
 
 ## 📸 Screenshots
