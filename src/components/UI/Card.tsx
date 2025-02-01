@@ -1,19 +1,19 @@
-import React from 'react'
-import styled from 'styled-components'
+import { ReactNode } from 'react'
+import { cn } from '../../lib/utils'
 
-type CardDType = {
-	children: React.ReactNode
-}
-const Card = ({ children }: CardDType) => {
-	return <CardD>{children}</CardD>
+type Props = {
+	children: ReactNode
+	className?: string
 }
 
-export default Card
-
-const CardD = styled.div`
-	padding: 1rem;
-	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-	border-radius: 14px;
-	background-color: white;
-	width: 100%;
-`
+export default function Card({ children, className }: Props) {
+	return (
+		<div
+			className={cn(
+				'overflow-hidden rounded bg-white shadow p-3 border border-customWhite-300 dark:bg-customBlack-700 dark:border-0',
+				className,
+			)}>
+			{children}
+		</div>
+	)
+}

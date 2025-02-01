@@ -1,21 +1,10 @@
-import React from 'react'
+import Feed from '../components/Feeds/Feed'
+import Layout from '../layouts'
 
-import Feed from '../components/Feed'
-import Header from '../components/Header'
-import Sidebar from '../components/Sidebar'
-import Widget from '../components/Widget'
-
-export const HomeScreen = () => {
+export default function HomeScreen() {
 	return (
-		<>
-			<Header />
-			<div className="app-bod">
-				<Sidebar />
-				<Feed />
-				<Widget />
-			</div>
-		</>
+		<Layout>
+			<Feed />
+		</Layout>
 	)
 }
-
-export default HomeScreen
