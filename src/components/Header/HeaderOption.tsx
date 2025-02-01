@@ -1,5 +1,3 @@
-import { useMemo } from 'react'
-import { getRandomIntNumberBetween } from '../../utils'
 import Avatar from '../UI/Avatar'
 
 type HeaderOptionProps = {
@@ -9,7 +7,6 @@ type HeaderOptionProps = {
 	title?: string
 	NoMarginRight?: boolean
 	avatar?: string
-	showBorder?: boolean
 	showNotification?: boolean
 }
 
@@ -19,26 +16,25 @@ const HeaderOption = ({
 	avatar,
 	isBorderTrue = false,
 	NoMarginRight = false,
-	showNotification = false,
 }: HeaderOptionProps) => {
-	{
-		console.log(showNotification)
+	const getBadgeCount = () => {
+		if (title === 'Notifications') return 20
+		if (title === 'My Network') return 5
+		return null
 	}
 
-	const notificationCount = useMemo(() => {
-		return getRandomIntNumberBetween(100, 0)
-	}, [])
+	const badgeCount = getBadgeCount()
 
 	return (
 		<div
 			className={`${
 				isBorderTrue ? 'border-l border-gray-300 pl-5' : ''
-			} flex flex-col items-center cursor-pointer transition-all duration-400   ${
+			} flex flex-col items-center cursor-pointer transition-all duration-400 ${
 				NoMarginRight ? 'mr-0' : 'mr-7.5'
 			} relative`}>
-			{title === 'Notifications' && (
+			{badgeCount !== null && (
 				<span className="absolute -top-[12px] right-[13px] bg-red-500 text-white text-[11px] font-bold rounded-full h-5 w-5 flex items-center justify-center">
-					{notificationCount}
+					{badgeCount}
 				</span>
 			)}
 

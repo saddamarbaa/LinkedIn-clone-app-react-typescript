@@ -28,3 +28,7 @@ export const LoginSchemaValidation = Yup.object().shape({
 export const RestPasswordSchemaValidation = Yup.object().shape({
 	email: Yup.string().required('Email is required').email('Email is invalid'),
 })
+
+export const ForgotPasswordSchemaValidation = Yup.object().shape({
+	email: Yup.string().required('Email is required').email('Email is invalid'),
+})
