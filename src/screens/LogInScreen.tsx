@@ -77,7 +77,7 @@ export default function LogInScreen() {
 					{/* Forgot Password Link */}
 					<div className="text-right">
 						<Link
-							to="/forgotpassword"
+							to="/forgot-password"
 							className="text-customBlue-950 hover:underline transition dark:text-white text-sm font-bold">
 							Forgot Password?
 						</Link>

@@ -11,6 +11,7 @@ import MessagesScreen from './screens/MessagesScreen'
 import JobsScreen from './screens/JobsScreen'
 import MyNetworkScreen from './screens/MyNetworkScreen'
 import ProfileScreen from './screens/ProfileScreen'
+import ForgotPasswordScreen from './screens/ForgotPasswordScreen'
 
 export default function RouteLayout() {
 	const location = useLocation()
@@ -31,6 +32,7 @@ export default function RouteLayout() {
 			<Route path="/register" element={<SignUpScreen />} />
 			<Route path="/welcome" element={<WelcomingScreen />} />
 			<Route path="/login" element={<LoginScreen />} />
+			<Route path="/forgot-password" element={<ForgotPasswordScreen />} />
 			<Route path="*" element={<NotFoundScreen />} />
 		</Routes>
 	)
